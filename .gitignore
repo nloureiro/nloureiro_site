@@ -4,3 +4,4 @@ _site
 .users.yml
 assets/img/.DS_Store
 assets/.DS_Store
+.DS_Store

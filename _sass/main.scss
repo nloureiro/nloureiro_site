@@ -32,6 +32,7 @@
     // stroke-width: 3rem;
     stroke-dasharray: 4200;
     stroke-dashoffset: -4200;
+    stroke-linejoin: round;
     animation: dash 2s ease-out forwards;
   }
 }

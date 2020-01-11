@@ -71,6 +71,7 @@ Clone this repository and run:
 ```bash
 bundle install
 bundle exec jekyll server --watch
+bundle exec jekyll server --watch --livereload
 ```
 Jekyll will watch your project folder for changes.
 

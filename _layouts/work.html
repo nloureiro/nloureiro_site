@@ -1,0 +1,26 @@
+---
+layout: default
+---
+
+<h2>{{ page.title }}</h2>
+
+{% include page-intro.html %}
+
+{{ content }}
+
+<section>
+
+  <h3>Posts</h3>
+
+  <ul>
+    {% for work in site.work %}
+  
+      <li>
+        <h4><a href="{{ work.url }}">{{ work.title }}</a></h4>
+       
+       
+      </li>
+    {% endfor %}
+  </ul>
+
+</section>

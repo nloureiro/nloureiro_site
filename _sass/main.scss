@@ -18,6 +18,13 @@
    bottom: 2rem;
    width: 100px;
    height: 40px;
+   a:hover, a{
+    text-decoration: none;
+    border-bottom: none;
+    transition: all 1s ease-out;
+   }
+
+
   svg{
     width: 100%;
     fill: none;
@@ -25,12 +32,24 @@
     stroke-dashoffset: -4200;
     stroke-linejoin: round;
     animation: dash 2s ease-out forwards;
+      path{
+        stroke:#fff;
+        transition: stroke .3s ease-out;
+      }
+    }
+  a:hover{
+    svg{
+      path{ stroke:$brand-color;
+        transition: stroke .3s ease-out;
+      }
     }
   }
-  
-  @keyframes dash {
-  to {
-    stroke-dashoffset: 0;
   }
+  
+
+
+
+  @keyframes dash {
+  to { stroke-dashoffset: 0;}
  }
 

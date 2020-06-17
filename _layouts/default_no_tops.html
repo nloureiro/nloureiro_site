@@ -3,23 +3,16 @@ layout: compress
 ---
 
 <!DOCTYPE html>
-<html data-current="{{ page.section }}" lang="en" >
+<html data-current="{{ page.section }}" lang="en" class="{{ page.section }}">
 
   {% include head.html %}
 
   <body class="{{ page.section }}">
     {% include logo.html %}
-    {% include header.html %}
-
-
     <main>
-
+     
       {{ content }}
-
     </main>
-
-    {% include footer.html %}
-
   </body>
 
 </html>

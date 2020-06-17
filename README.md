@@ -1,6 +1,3 @@
-# Jekyll Netlify Boilerplate
-
-
 ## Local Development
 
 Clone this repository and run:

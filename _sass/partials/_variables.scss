@@ -11,6 +11,9 @@ $selection-bg-color: #CCDCFF;
 $body-bg-color:#F2F2F2;
 $strong-color:#004BF4;
 
+$outline-color: #fff;
+
+
 // typographic defaults
 $base-font: 'silkaregular',system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Droid Sans,Helvetica Neue;
 $code-font: Courier, monospace;
@@ -25,6 +28,10 @@ $h-font: 'salomeregular','silkaregular',system-ui,-apple-system,BlinkMacSystemFo
 //paddings & margins
 
 $a-padding: 1rem;
+$b-padding: 2rem;
+$c-padding: 3rem;
+
+
 
 // viewport breakpoints
 $screen-xs-min: 480px;

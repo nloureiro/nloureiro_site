@@ -1,8 +1,8 @@
 ---
 layout: work
-title: Nuno Loureiro Portfolio
+title: Work
 permalink: /portfolio
 section: work
 intro_paragraph: >
-  This id my shit
+  
 ---

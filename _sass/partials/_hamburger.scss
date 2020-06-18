@@ -1,0 +1,216 @@
+
+$hamburger-menu-size: 50px;
+$hamburger-menu-border-radius: .12em;
+$hamburger-menu-bg-color: #fff;
+$hamburger-menu-line-height: 2px;
+$hover-line-height: $hamburger-menu-line-height;
+$hover-color:#fff;
+$content-bg-color: $strong-color;
+$main-color: #8BADF8;
+$anim-duration: .4s;
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+
+.outer-menu {
+  position: fixed;
+  top: $a-padding;
+  right: calc( #{$a-padding} + #{$hamburger-menu-size} );
+  z-index: 1;
+  
+  .checkbox-toggle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    cursor: pointer;
+    width: $hamburger-menu-size;
+    height: $hamburger-menu-size;
+    opacity: 0;
+    
+    &:checked {
+        transition: all 0.5s ease-in-out;
+      & + .hamburger {
+        > div {
+          transform: rotate(135deg);
+          
+          &:before,
+          &:after {
+            top: 0;
+            transform: rotate(90deg);
+          }
+          
+          &:after {
+            opacity: 0;
+          }
+        }
+      }
+      
+      & ~ .menu  {
+        pointer-events: auto;
+        visibility: visible;
+        
+        > div {
+          transform: scale(1);
+          transition-duration: .75s;
+          
+          > div {
+            opacity: 1;
+            transition: opacity $anim-duration ease $anim-duration;
+          }
+        }
+      }
+    }
+    
+    &:hover + .hamburger {
+     // background: $selection-bg-color;
+      transition: all 0.5s ease-in-out;
+    }
+    
+    &:checked:hover + .hamburger > div {
+      transform: rotate(225deg);
+    }
+  }
+  
+  .hamburger {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    border-radius: 5000px;
+    width: $hamburger-menu-size;
+    height: $hamburger-menu-size;
+    padding: .5em 1em;
+   // background: $hamburger-menu-bg-color;
+    cursor: pointer;
+    transition: box-shadow $anim-duration ease;
+    backface-visibility: hidden;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+    
+    > div {
+      position: relative;
+      flex: none;
+      width: 100%;
+      border-radius: 400px;
+      height: $hamburger-menu-line-height;
+      background: $main-color;
+      transition: all $anim-duration ease;
+      display: flex;
+  align-items: center;
+  justify-content: center;
+      
+      &:before,
+      &:after {
+        content: '';
+        position: absolute;
+        z-index: 1;
+        top: -$hamburger-menu-size / 6;
+        left: 0;
+        width: 100%;
+        border-radius: 400px;
+        height: $hamburger-menu-line-height;
+        background: inherit;
+        transition: all $anim-duration ease;
+      }
+      
+      &:after {
+        top: $hamburger-menu-size / 6;
+      }
+    }
+  }
+  
+  .menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    visibility: hidden;
+    overflow: hidden;
+    backface-visibility: hidden;
+    outline: 1px solid transparent;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+    
+    > div {
+      width: 200vw;
+      height: 200vw;
+      color: $main-color;
+      background: $content-bg-color;
+      border-radius: 50%;
+      transition: all $anim-duration ease;
+      flex: none;
+      transform: scale(0);
+      backface-visibility: hidden;
+      overflow: hidden;
+      display: flex;
+  align-items: center;
+  justify-content: center;
+      
+      > div {
+        text-align: center;
+        max-width: 90vw;
+        max-height: 100vh;
+        opacity: 0;
+        transition: opacity $anim-duration ease;
+        overflow-y: auto;
+        flex: none;
+        display: flex;
+  align-items: center;
+  justify-content: center;
+        
+        > ul {
+          list-style: none;
+          padding: 0 1em;
+          margin: 0;
+          display: block;
+          max-height: 100vh;
+          
+          > li {
+            padding: 0;
+           text-align: right;
+            font-size: 24px;
+            display: block;
+            
+            > a {
+              position: relative;
+              display: inline;
+              cursor: pointer;
+              transition: color $anim-duration ease;
+              text-decoration: none;
+        
+              color: $brand-color;
+            font-family: $h-font;
+            border: none;
+            font-size: 3rem;
+            line-height: 3.2rem;
+              
+              &:hover {
+                color: $hover-color;
+                
+                &:after {
+                  width: 100%;
+                }
+              }
+              
+              &:after {
+                content: '';
+                
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

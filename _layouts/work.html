@@ -2,25 +2,34 @@
 layout: default
 ---
 
-<h2>{{ page.title }}</h2>
+<h2 style="display: none;">{{ page.title }}</h2>
 
 {% include page-intro.html %}
 
 {{ content }}
 
-<section>
-
-  <h3>Posts</h3>
-
+<section class="work_list">
   <ul>
-    {% for work in site.work %}
-  
       <li>
-        <h4><a href="{{ work.url }}">{{ work.title }}</a></h4>
-       
-       
+        <a href="/portfolio/publico" class="work_list_container">
+          <time>2019</time>
+          <h4>publico app</h4>
+          <figure style="width: 400px; height: 300px; background-color: red;"></figure>
+        </a>
       </li>
-    {% endfor %}
+      <li>
+        <a href="/portfolio/publico" class="work_list_container">
+          <time>2019</time>
+          <h4>publico app</h4>
+          <figure style="width: 400px; height: 300px; background-color: red;"></figure>
+        </a>
+      </li>
+      <li>
+        <a href="/portfolio/publico" class="work_list_container">
+          <time>2019</time>
+          <h4>publico app</h4>
+          <figure style="width: 400px; height: 300px; background-color: red;"></figure>
+        </a>
+      </li>
   </ul>
-
 </section>

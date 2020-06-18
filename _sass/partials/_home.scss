@@ -11,6 +11,27 @@
     color: #fff;
 }
 
+.home{
+    .logo{
+       
+        
+       svg{
+           path{
+             stroke:#fff;
+            
+           }
+         }
+         a:hover{
+           svg{
+             path{ stroke:$brand-color;
+               
+             }
+           }
+         }
+       }
+    }
+
+
 
 .my_home{
     display: flex;

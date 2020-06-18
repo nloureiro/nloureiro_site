@@ -6,8 +6,8 @@
   url: /portfolio
 - text: about
   url: /about
-- text: blog
-  url: /blog
+# - text: blog
+#   url: /blog
 - text: contact
   url: /contact
 

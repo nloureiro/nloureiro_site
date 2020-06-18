@@ -7,28 +7,47 @@
   "partials/normalize",
   "partials/utilities",
   "partials/typography",
+  "partials/hamburger",
   // "partials/app",
-  "partials/home"
+  "partials/home",
+  "partials/work_list"
 ;
 
+body{
+  background-color:#fff;
+}
+
 .outline{
-  padding: 0 $a-padding 0 $a-padding;
-  margin: $a-padding 0 0 0;
+  padding: 0 $b-padding 0 $b-padding;
+  box-shadow: $outline-color inset 0px 0px 0px $a-padding;
+  //margin: $a-padding 0 0 0;
   position: fixed;
   height: 100vh;
   width: 100%;
   overflow: auto;
   overflow-x: hidden;
-  &::after{
+  background: $body-bg-color;
+  &::after, &::before{
     content: "";
     display: block;
     height: $a-padding;
-    background: #fff;
+    background: $outline-color ;
     width: 100%;
     position: fixed;
     bottom: 0;
+    z-index: 3000;
   }
-  
+  &::before{
+    top: 0;
+  }
+}
+
+.home .outline{
+  padding: 0 $a-padding 0 $a-padding;
+}
+
+main{
+  padding: $c-padding 0;
 }
 
  .logo{
@@ -42,8 +61,6 @@
     border-bottom: none;
     transition: all 1s ease-out;
    }
-
-
   svg{
     width: 100%;
     fill: none;
@@ -52,21 +69,20 @@
     stroke-linejoin: round;
     animation: dash 2s ease-out forwards;
       path{
-        stroke:#fff;
+        stroke:$brand-color;
         transition: stroke .3s ease-out;
       }
     }
-  a:hover{
-    svg{
-      path{ stroke:$brand-color;
-        transition: stroke .3s ease-out;
+    a:hover{
+      svg{
+        path{ stroke:$text-color;
+          transition: stroke .3s ease-out;
+        }
       }
     }
-  }
   }
   
-
-
+  
 
   @keyframes dash {
   to { stroke-dashoffset: 0;}

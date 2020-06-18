@@ -1,0 +1,32 @@
+
+
+.work_list{
+    
+    ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        li{
+            margin: $c-padding 0;
+            a{
+                transition: all 0.5s ease-in-out;
+                border: none;
+                &:hover{
+                    border: none;
+                    text-decoration: none;
+                    transition: all 0.5s ease-in-out;
+                }
+                h4{
+                    font-family: $h-font;
+                    font-size: 3rem;
+                }
+                time{
+                    padding: 0;
+                }
+            }      
+        }
+    }
+    
+}
+

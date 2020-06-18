@@ -1,9 +1,5 @@
-.home{
-    background: $strong-color;
-}
+
 .clean_homepage, .new_hompage{
-   
-   
    
     height: 100vh;
     width: 100%;
@@ -13,5 +9,48 @@
     padding: 2rem;
     text-align: center;
     color: #fff;
-  }
+}
+
+
+.my_home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    align-items: flex-end ;
+    text-align: right;
+    height: 100vh;
+    background: $strong-color;
+    div{
+        max-width: 290px;
+        padding: $a-padding;
+
+    }
+    nav{
+        a, li{
+            color: $brand-color;
+            font-family: $h-font;
+            border: none;
+            font-size: 3rem;
+            line-height: 3.2rem;
+        }
+        a:hover{
+            text-decoration: none;
+            border: none;
+            color: #fff;
+        }
+    }
+    h2{
+        color: #fff;
+        font-size: 0.8rem;
+        line-height: 1.2rem;
+        span{
+            display: block;
+        }
+        b{
+            display: block;
+            margin-bottom: 10px;
+        }
+    }
+}
   

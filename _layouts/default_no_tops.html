@@ -4,15 +4,11 @@ layout: compress
 
 <!DOCTYPE html>
 <html data-current="{{ page.section }}" lang="en" class="{{ page.section }}">
-
   {% include head.html %}
-
   <body class="{{ page.section }}">
-    {% include logo.html %}
-    <main>
-     
-      {{ content }}
-    </main>
+    <div class="outline">
+      {% include logo.html %}
+      <main>{{ content }}</main>
+  </div>
   </body>
-
 </html>

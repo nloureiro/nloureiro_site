@@ -11,6 +11,25 @@
   "partials/home"
 ;
 
+.outline{
+  padding: 0 $a-padding 0 $a-padding;
+  margin: $a-padding 0 0 0;
+  position: fixed;
+  height: 100vh;
+  width: 100%;
+  overflow: auto;
+  overflow-x: hidden;
+  &::after{
+    content: "";
+    display: block;
+    height: $a-padding;
+    background: #fff;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+  }
+  
+}
 
  .logo{
    position: fixed;

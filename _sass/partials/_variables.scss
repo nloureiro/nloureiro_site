@@ -19,6 +19,12 @@ $base-font-weight: 300;
 $bold-font-weight: 600;
 $base-line-height: 1.5;
 
+$h-font: 'salomeregular','silkaregular',system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Droid Sans,Helvetica Neue;
+
+
+//paddings & margins
+
+$a-padding: 1rem;
 
 // viewport breakpoints
 $screen-xs-min: 480px;

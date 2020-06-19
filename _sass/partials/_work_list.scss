@@ -13,6 +13,7 @@
             a{
                 transition: all 0.5s ease-in-out;
                 border: none;
+                
                 &:hover{
                     border: none;
                     text-decoration: none;
@@ -20,9 +21,12 @@
                 }
                 h4{
                     font-family: $h-font;
-                    font-size: 4rem;
+                    font-size: 3rem;
                     position: relative;
                     z-index: 2;
+                    @include sm {
+                        font-size: 4rem;
+                    }
                 }
                 time{
                     padding: 0;
@@ -38,13 +42,22 @@
             }  
             
             &.proj1{
-                max-width: 400px;
+                max-width: 500px;
                 height: 290px;
+                @include xs {
+                   
+                    height: 150px;
+                }
                 figure{
                     width: 200px;
                     height: 300px;
                     top: 0;
-                    right: 0;
+                    right: -100px;
+                    @include xs {
+                        width: 100px;
+                        height: 200px;
+                        right: -30px;
+                    }
                 }
             }
             &.proj2{

@@ -8,10 +8,10 @@ layout: compress
   {% include head.html %}
 
   <body class="{{ page.section }}">
-    <div class="outline" id="main">
+    <div class="outline m-scene" id="main">
       {% include logo.html %}
       {% include header.html %}
-      <main>{{ content }}</main>
+      <main class="scene_element scene_element--fadein">{{ content }}</main>
       {% include footer.html %}
   </div>
   {% include js-includes.html %}

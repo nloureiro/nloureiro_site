@@ -6,9 +6,9 @@ layout: compress
 <html data-current="{{ page.section }}" lang="en">
   {% include head.html %}
   <body class="{{ page.section }}">
-    <div class="outline" id="main">
+    <div class="outline m-scene" id="main">
       {% include logo.html %}
-      <main>{{ content }}</main>
+      <main class="scene_element scene_element--fadein">{{ content }}</main>
   </div>
   {% include js-includes.html %}
   </body>

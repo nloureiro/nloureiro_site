@@ -2,9 +2,30 @@
 layout: default
 ---
 
-<h2>{{ page.title }}</h2>
-<h3>{{ page.topimage }}</h3>
+<nav class="proj_navigation">
+    <a href="#">Previus project</a>
+    <a href="#">Previus project</a>
+</nav>
+<section class="head">
+    <h2>{{ page.title }}</h2>
+    <h3>{{ page.topimage }}</h3>
+    <time>{{ page.year }}</time>
 
-{% include page-intro.html %}
+    <div class="proj_details">
+        <ul>
+            <li><h5><span>Roles</span>{{ page.roles }}</h5></li>
+            <li><h5><span>Tools</span>{{ page.tools }}</h5></li>
+            <li><h5><span>Resources</span>{{ page.resources }}</h5></li>
+        </ul>
+    </div>
+    {% include page-intro.html %}
+    
+</section>
+<section class="body">
+    {{ content }}
+</section>
 
-{{ content }}
+
+
+
+

@@ -12,9 +12,13 @@
 }
 
 .home{
+    .outline{
+        padding: 0 $a-padding 0 $a-padding;
+      }
+      main{
+          padding: 0;
+      }
     .logo{
-       
-        
        svg{
            path{
              stroke:#fff;
@@ -29,7 +33,7 @@
            }
          }
        }
-    }
+}
 
 
 
@@ -41,7 +45,11 @@
     align-items: flex-end ;
     text-align: right;
     height: 100vh;
-    background: $strong-color;
+    background-color: $strong-color;
+    background-image: url(../../assets/img/me.jpg);
+    background-size: auto 100% ;
+    background-repeat: no-repeat;
+    background-position: 0 0;
     div{
         max-width: 290px;
         padding: $a-padding;
@@ -54,6 +62,10 @@
             border: none;
             font-size: 3rem;
             line-height: 3.2rem;
+            @include sm {
+                font-size: 5rem;
+                line-height: 4.5rem;
+            }
         }
         a:hover{
             text-decoration: none;
@@ -65,6 +77,10 @@
         color: #fff;
         font-size: 0.8rem;
         line-height: 1.2rem;
+        @include sm {
+            font-size: 1rem;
+            line-height: 1.5rem;
+        }
         span{
             display: block;
         }

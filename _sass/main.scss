@@ -35,20 +35,25 @@ body{
     width: 100%;
     position: fixed;
     bottom: 0;
-    z-index: 3000;
+    z-index: 300;
   }
   &::before{
     top: 0;
   }
 }
 
-.home .outline{
-  padding: 0 $a-padding 0 $a-padding;
-}
+
 
 main{
   padding: $c-padding 0;
 }
+
+
+
+
+
+
+
 
  .logo{
    position: fixed;

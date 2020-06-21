@@ -1,0 +1,16 @@
+---
+layout: compress
+---
+
+<!DOCTYPE html>
+<html data-current="{{ page.section }}" lang="en">
+  {% include head.html %}
+  <body class="{{ page.section }}">
+    <div class="outline m-scene" id="main">
+      {% include logo.html %}
+      <main class="scene_element scene_element--fadein">{{ content }}</main>
+  </div>
+  {% include js-includes.html %}
+  </body>
+  
+</html>

@@ -1,33 +1,46 @@
 ---
-layout: default
+layout: default_no_tops
 ---
 
 
-<section class="clean_homepage">
+<section class="my_home">
   <div>
-      <h1>
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2222.6 620.86">
-            <path class="cls-1" stroke="#fff" stroke-width="4rem" stroke-linecap="round" d="M1724.86,173A259.92,259.92,0,0,1,1932.2,70.07c143.81,0,260.4,116.59,260.4,260.4S2076,590.86,1932.2,590.86,1691.28,469,1671.81,329.68c-64.07-428.87-382.15-344.95-477.29-75.91-140.87,398.34-490.25,445.64-560.35,50.86C574.69-30.32,339.91-100.76,30,514.37"/></svg>
-        </h1>
-        <h2>Designer</h2>
-        <h3>New website soon...</h3>
-        <h4>meanwhile, reach me over <a href="mailto:mail@nloureiro.com">email</a> or <a href="https://twitter.com/nloureiro">twitter</a></h4>
-  </div>
-  
+    
+    
+
+    <h2><span>My name is Nuno Loureiro</span>
+      <span>& I’m a designer.</span>
+      <b></b>
+      <span>Soon more info and a blog</span>
+      meanwhile, reach me over <a href="mailto:mail@nloureiro.com">email</a> or <a href="https://twitter.com/nloureiro">twitter</a>
+      </h2>
+  </div> 
 </section>
+
+
+{% comment %}
+<section class="my_home">
+  <div>
+    
+    <nav>
+      {% include navigation.html navigation=site.data.navigation %}
+    </nav>
+
+    <h2><span>My name is Nuno Loureiro</span>
+      <span>& I’m a designer.</span>
+      <b></b>
+      <span>Welcome to my virtual little corner.</span>
+      I hope you enjoy.
+      </h2>
+  </div> 
+</section>
+
+{% endcomment %}
+
 
 
 
 {% comment %}
-<h2>{{ page.title }}</h2>
-
-  {% include page-intro.html %}
-
-
-  {{ content }}
-
-
-
   <section>
 
     <h3>Recent posts from the blog</h3>

@@ -8,6 +8,7 @@
 // the body element is our primary layout grid
 body {
   height: 100vh;
+  background-color: $body-bg-color;
   display: grid;
   grid-template-rows: auto 1fr auto;
   grid-template-columns:
@@ -18,8 +19,7 @@ body {
 
 // by default, make any new children of body to span the full track
 body > * {
-  grid-column: full;
-  padding: 2rem 1rem;
+  
 }
 
 // header, the first grid row
@@ -91,17 +91,7 @@ header > nav {
 
 // our main content wrapper, the width scales with font size
 main {
-  width: 100%;
-  max-width: 52rem;
-  margin-right: auto;
-  margin-left: auto;
-  grid-column: main;
-  display: grid;
-  padding-top: 8rem;
-  padding-bottom: 8rem;
-  @media screen and (min-width: $screen-md-min) {
-    align-content: start;
-  }
+ 
 }
 
 // reset breaking fallbacks (e.g. widths) if CSS Grid is supported

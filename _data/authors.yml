@@ -1,11 +1,8 @@
 # specify site authors in this file
 # you can add .yml files for any other global data in this folder
 
-dan_urbanowicz:
-    name: Dan Urbanowicz
-    email: dan.urbanowicz@gmail.com
-    web: https://www.danurbanowicz.com
-john_doe:
-    name: John Doe
-    email: johndoe@email.com
-    web: http://twitter.com/johndoe
+
+nuno_loureiro:
+    name: Nuno Loureiro
+    email: nuno@nloureiro.com
+    web: http://twitter.com/nloureiro

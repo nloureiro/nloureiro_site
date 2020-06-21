@@ -13,9 +13,16 @@ layout: default
 
     <div class="proj_details">
         <ul>
+            {% if page.roles == %}<li></li>{% else %}
             <li><h5><span>Roles</span>{{ page.roles }}</h5></li>
+            {% endif %}
+            {% if page.tools == %}<li></li>{% else %}
             <li><h5><span>Tools</span>{{ page.tools }}</h5></li>
+            {% endif %}
+            {% if page.resources == %}<li></li>{% else %}
             <li><h5><span>Resources</span>{{ page.resources }}</h5></li>
+            {% endif %}
+            
         </ul>
     </div>
     {% include page-intro.html %}

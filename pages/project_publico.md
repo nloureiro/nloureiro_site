@@ -9,6 +9,8 @@ content_template: publico
 roles: Visual Design · Research · Specification · HTML & CSS · Project management 
 tools: Adobe illustrator · Adobe XD · MS code · Git
 resources: Django CMS · Bootstrap · SASS · Jquery
+previus_project: lo
+next_project:
 
   
 ---

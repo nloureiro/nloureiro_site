@@ -1,10 +1,18 @@
 <nav class="proj_navigation">
-    <a href="#">
+    {% if page.previus_project == nil %}
+    <a href="#" class="noway">
+        {% else %}
+    <a href="{{ site.baseurl }}/portfolio/{{ page.previus_project }}">
+        {% endif %}
         <svg xmlns="http://www.w3.org/2000/svg" >
         <path d="M3529.595,1058.628H3506.54l7.128-7.128" transform="translate(-3506.04 -1050.793)" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
       </svg>
     </a>
-    <a href="#">
+    {% if page.next_project == nil %}
+    <a href="#" class="noway">
+        {% else %}
+    <a href="{{ site.baseurl }}/portfolio/{{ page.next_project }}">
+        {% endif %}
         <svg xmlns="http://www.w3.org/2000/svg">
             <path  d="M3506.54,1051.5H3529.6l-7.128,7.128" transform="translate(-3506.04 -1051)" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
         </svg>

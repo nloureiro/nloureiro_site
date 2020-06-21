@@ -2,35 +2,32 @@
 layout: default
 ---
 
-<nav class="proj_navigation">
-    <a href="#">Previus project</a>
-    <a href="#">Previus project</a>
-</nav>
-<section class="head">
-    <h2>{{ page.title }}</h2>
-    <h3>{{ page.topimage }}</h3>
-    <time>{{ page.year }}</time>
 
-    <div class="proj_details">
-        <ul>
-            {% if page.roles == %}<li></li>{% else %}
-            <li><h5><span>Roles</span>{{ page.roles }}</h5></li>
-            {% endif %}
-            {% if page.tools == %}<li></li>{% else %}
-            <li><h5><span>Tools</span>{{ page.tools }}</h5></li>
-            {% endif %}
-            {% if page.resources == %}<li></li>{% else %}
-            <li><h5><span>Resources</span>{{ page.resources }}</h5></li>
-            {% endif %}
-            
-        </ul>
-    </div>
-    {% include page-intro.html %}
-    
-</section>
-<section class="body">
-    {{ content }}
-</section>
+{% include proj-navigation.html %}
+<div class="{{ page.content_template }}">
+    <section class="head">
+        <h2>{{ page.title }}</h2>
+        <h3>{{ page.topimage }}</h3>
+        <time>{{ page.year }}</time>
+        <div class="proj_details">
+            <ul>
+                {% if page.roles == nil %}<li></li>{% else %}
+                <li><h5><span>Roles</span>{{ page.roles }}</h5></li>
+                {% endif %}
+                {% if page.tools == nil %}<li></li>{% else %}
+                <li><h5><span>Tools</span>{{ page.tools }}</h5></li>
+                {% endif %}
+                {% if page.resources == nil %}<li></li>{% else %}
+                <li><h5><span>Resources</span>{{ page.resources }}</h5></li>
+                {% endif %} 
+            </ul>
+        </div>    
+    </section>
+    <section class="body">
+        {% include work/{{ page.content_template }}.html %}
+    </section>
+</div>
+
 
 
 

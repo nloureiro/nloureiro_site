@@ -1,0 +1,43 @@
+.proj_navigation{
+    display: flex;
+    width: 100%;
+    position: fixed;
+    top: 10px;
+    left: 0;
+    justify-content: center;
+    a, a:hover{
+        display: block;
+        width: 34px;
+        height: 34px;
+        border: none;
+        border-radius: 3000px;
+        background-color: #fff;
+        margin: 10px;
+        transition: all 0.5s ease-in-out;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        svg{
+            stroke: $brand-color;
+            width: 24px;
+            height: 9px;
+            position: absolute;
+            top: 19px;
+            transition: all 0.3s ease-in-out;
+        }
+        &:nth-child(2){
+            svg{
+                top: 26px;
+            }
+        }
+    }
+    a:hover{
+        background-color: $brand-color;
+        transition: all 0.5s ease-in-out;
+        svg{
+            transition: all 0.3s ease-in-out;
+            stroke: #fff;
+            
+        }
+    }
+}

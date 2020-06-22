@@ -6,23 +6,32 @@ layout: default
 {% include proj-navigation.html %}
 <div class="{{ page.content_template }}">
     <section class="head">
-        <h2>{{ page.title }}</h2>
-        <h3>{{ page.topimage }}</h3>
-        <time>{{ page.year }}</time>
-        <div class="proj_details">
-            <ul>
-                {% if page.roles == nil %}<li></li>{% else %}
-                <li><h5><span>Roles</span>{{ page.roles }}</h5></li>
-                {% endif %}
-                {% if page.tools == nil %}<li></li>{% else %}
-                <li><h5><span>Tools</span>{{ page.tools }}</h5></li>
-                {% endif %}
-                {% if page.resources == nil %}<li></li>{% else %}
-                <li><h5><span>Resources</span>{{ page.resources }}</h5></li>
-                {% endif %} 
-            </ul>
-        </div>    
+        <div class="top_head_text">
+            <h2>{{ page.title }}<time>{{ page.year }}</time></h2>
+            <div class="proj_details">
+                <ul>
+                    {% if page.roles == nil %}<li></li>{% else %}
+                    <li><h5><span>Roles</span>{{ page.roles }}</h5></li>
+                    {% endif %}
+                    {% if page.tools == nil %}<li></li>{% else %}
+                    <li><h5><span>Tools</span>{{ page.tools }}</h5></li>
+                    {% endif %}
+                    {% if page.resources == nil %}<li></li>{% else %}
+                    <li><h5><span>Resources</span>{{ page.resources }}</h5></li>
+                    {% endif %} 
+                </ul>
+            </div> 
+        </div>
+        <div class="top_image_container">
+            <img class="top_image" 
+            src="{{site.url}}/assets/img/work/{{ page.topimage }}.{{ page.topimageformat }}" 
+            srcset="{{site.url}}/assets/img/work/{{ page.topimage }}.{{ page.topimageformat }} 1x, {{site.url}}/assets/img/work/{{ page.topimage }}@2x.{{ page.topimageformat }} 2x, {{site.url}}/assets/img/work/{{ page.topimage }}@3x.{{ page.topimageformat }} 3x"
+            alt="{{ page.topimagealt}}"
+            >
+        </div>
+           
     </section>
+
     <section class="body">
         {% include work/{{ page.content_template }}.html %}
     </section>

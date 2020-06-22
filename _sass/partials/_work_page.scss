@@ -49,3 +49,79 @@
         }
     }
 }
+
+
+.portfolio{
+    .top_image_container{
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 50%;
+        z-index: 1;
+    }
+    .top_head_text, .body{
+        padding: $b-padding;
+        @include md{
+            padding: $c-padding;
+        }
+        z-index: 6;
+        position: relative;
+    }
+    .head{
+        h2{
+            color: $brand-color;
+            font-size: 4rem;
+            font-family: $h-font;
+            position: relative;
+            padding-left: $b-padding;
+            @include sm{
+                font-size: 5rem;
+            }
+            @include md{
+                font-size: 6rem;
+            }
+            time{
+                position: absolute;
+                left: 0;
+                top: 7px;
+                transform: rotate(-90deg);
+                font-size: 1.5rem;
+                
+                @include sm{
+                    top: 14px;
+                }
+    
+            }
+        }
+
+    }
+    .proj_details{
+        max-width: 400px;
+        h5{
+            font-size: 0.9rem;
+            margin: 0;
+            padding: 0 0 $a-padding 0;
+            span{
+                display: block;
+                text-transform: uppercase;
+                font-weight: bold;
+                color: $brand-color;
+                font-family: 'silkabold';
+                
+            }
+        }
+    }
+}
+
+
+
+
+.publico{
+    .top_image_container{
+        right: -100px;
+        top: 50px;
+        width: 70%;
+        max-height: 400px;
+        overflow: hidden;
+    }
+}

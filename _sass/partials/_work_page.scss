@@ -79,10 +79,11 @@
             }
             @include md{
                 font-size: 6rem;
+                line-height: 6rem;
             }
             time{
                 position: absolute;
-                left: 0;
+                left: -$b-padding;
                 top: 7px;
                 transform: rotate(-90deg);
                 font-size: 1.5rem;
@@ -133,19 +134,26 @@
 
 
 
-
-
-
-
-
-
-
 .publico{
     .top_image_container{
         right: -100px;
         top: 50px;
         width: 70%;
         max-height: 400px;
+        overflow: hidden;
+    }
+}
+
+
+.brpx{
+    .head h2{
+        max-width: 600px;
+    }
+    .top_image_container{
+        right: -100px;
+        top: 70px;
+        width: 70%;
+        max-height: 450px;
         overflow: hidden;
     }
 }

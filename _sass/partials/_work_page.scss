@@ -59,7 +59,7 @@
         width: 50%;
         z-index: 1;
     }
-    .top_head_text, .body{
+    .top_head_text{
         padding: $b-padding;
         @include md{
             padding: $c-padding;
@@ -113,7 +113,7 @@
         }
     }
 
-    .body{
+    .body, .inside_section{
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
@@ -123,6 +123,7 @@
             font-family: 'silkabold';
             font-size: 1.5rem;
             margin-bottom: 0;
+            margin-top: 5rem;
             padding-bottom: 1rem;
             @include sm{
                 font-size: 3rem;
@@ -139,6 +140,10 @@
             font-size: 1.3rem;
             margin-bottom: 1rem;
         }
+        figure{
+            margin: 0;
+            padding: 0;
+        }
     }
 }
 
@@ -148,8 +153,19 @@
 .the_content{
     max-width: 800px;
 }
-
-
+.inside_section{
+    display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        padding-top: 5rem;
+}
+.image_section{
+    display: flex;
+    .sameline{
+        
+    }
+} 
 
 
 

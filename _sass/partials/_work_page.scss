@@ -118,6 +118,27 @@
         flex-direction: column;
         justify-content: flex-start;
         align-items: center;
+        padding-top: 5rem;
+        h3{
+            font-family: 'silkabold';
+            font-size: 1.5rem;
+            margin-bottom: 0;
+            padding-bottom: 1rem;
+            @include sm{
+                font-size: 3rem;
+            }
+            @include lg{
+                font-size: 4rem;
+            }
+        }
+        p{
+            margin-bottom: 0;
+            padding-bottom: 10px;
+        }
+        .main_p{
+            font-size: 1.3rem;
+            margin-bottom: 1rem;
+        }
     }
 }
 

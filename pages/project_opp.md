@@ -5,14 +5,14 @@ permalink: /portfolio/opp
 section: portfolio
 year: '2018'
 
-topimage: top
+topimage: topimage
 topimageformat: jpg
 topimagealt: Portugual Participatory Budget
 content_template: opp
 
-roles: Creative Director · Project management 
-tools: Adobe illustrator · Adobe Photoshop · MS code · Git
-resources: Netlify · Bootstrap · SASS · jekyll · paper (yes fisical)
+roles: Lead Designer · Project management 
+tools: Adobe illustrator · MS code · Git
+resources: Django CMS · Bootstrap · SASS · Unsplash photos
 
 previus_project:
 next_project:

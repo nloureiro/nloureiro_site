@@ -152,6 +152,12 @@
     }
 }
 
+.figcaption, figcaption{
+    font-style: italic;
+    font-size: 0.8rem;
+    text-align: center;
+}
+
 
 
 
@@ -184,6 +190,32 @@
         max-height: 400px;
         overflow: hidden;
     }
+    .top_head{
+       
+    }
+    .video{
+        width: 319px;
+        height: 632px;
+        display: block;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        &::after{
+            content: "";
+            display: block;
+            position: absolute;
+            width: 319px;
+            height: 632px;
+            top: 0;
+            left: 0;
+            background-image: url(/assets/img/work/publico/iPhone.png);
+            background-repeat: no-repeat;
+
+            
+        }
+    }
+    
 }
 
 

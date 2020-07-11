@@ -5,7 +5,7 @@ permalink: /portfolio/publico
 section: portfolio
 year: '2019'
 
-topimage: Untitled-1
+topimage: topimage
 topimageformat: png
 topimagealt: Project Publico apps
 content_template: publico

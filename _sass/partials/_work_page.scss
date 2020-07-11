@@ -183,6 +183,9 @@
 
 
 .publico{
+    .head h2{
+        max-width: 600px;
+    }
     .top_image_container{
         right: -100px;
         top: 50px;
@@ -190,9 +193,7 @@
         max-height: 400px;
         overflow: hidden;
     }
-    .top_head{
-       
-    }
+
     .video{
         width: 319px;
         height: 632px;

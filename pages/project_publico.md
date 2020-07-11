@@ -1,6 +1,6 @@
 ---
 layout: page_portfolio
-title: Publico app
+title: Público Mobile Applications
 permalink: /portfolio/publico
 section: portfolio
 year: '2019'
@@ -15,7 +15,7 @@ tools: Adobe illustrator · Adobe XD · Zepplin · Git  · ProtoPie
 resources: React Native · Bootstrap · SASS · Jquery
 
 previus_project:
-next_project:
+next_project: brpx
 
   
 ---

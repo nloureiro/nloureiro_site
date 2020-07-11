@@ -14,8 +14,8 @@ roles: Creative Director · Project management
 tools: Adobe illustrator · Adobe Photoshop · MS code · Git
 resources: Netlify · Bootstrap · SASS · jekyll · paper (yes fisical)
 
-previus_project:
-next_project:
+previus_project: publico
+next_project: opp
 
   
 ---

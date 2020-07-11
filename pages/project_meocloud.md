@@ -14,7 +14,7 @@ roles: Lead Designer · UX Designer
 tools: Adobe illustrator · Adobe Prhotoshop · Sketch · Git
 resources: Django CMS · Bootstrap
 
-previus_project:
+previus_project: opp
 next_project:
 
   

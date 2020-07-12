@@ -2,10 +2,25 @@
 layout: default
 ---
 
-<h2>{{ page.title }}</h2>
 
-{% include page-intro.html %}
+<div class="contact-page">
+    <h2>{{ page.title }}</h2>
+    <div>
+        {% include page-intro.html %}
+        {{ content }}
 
-{{ content }}
+       
+</div>
+</div>
 
+
+{% comment %}
 {% include contact-form.html %}
+{% endcomment %}
+
+
+
+
+
+
+

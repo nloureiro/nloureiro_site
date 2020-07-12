@@ -32,6 +32,32 @@
         text-align: center;
         font-size: 0.8rem;
     }
- 
 
+}
+
+
+.social_links{
+    ul{
+        display: flex;
+        flex-wrap: wrap;
+        
+        li{
+            padding: 1rem;
+            display: block;
+            width: 50%;
+            max-width: 300px;
+            
+            a{
+                padding: 1rem;
+                font-size: 2rem;
+                text-decoration: none;
+                display: block;
+                
+                &:hover{
+                    color: #fff;
+                    background-color: $link-color;
+                }
+            }
+        }
+    }
 }

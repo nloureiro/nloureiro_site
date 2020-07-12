@@ -10,7 +10,9 @@
   "partials/hamburger",
   // "partials/app",
   "partials/home",
-  "partials/work_list"
+  "partials/work_list",
+  "partials/work_page",
+  "partials/about_page"
 ;
 
 body{
@@ -168,5 +170,7 @@ main{
     animation-name: fadeInRight;
   }
 }
+
+
 
 

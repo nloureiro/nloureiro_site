@@ -1,5 +1,15 @@
 ## Local Development
 
+
+
+echo 'export PATH="/usr/local/opt/ruby/bin:$PATH"' >> /Users/nuno/.bash_profile
+source ~/.bash_profile
+
+gem install bundler jekyll
+bundle install
+
+
+
 Clone this repository and run:
 
 ```bash

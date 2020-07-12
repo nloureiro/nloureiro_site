@@ -1,19 +1,23 @@
 
 
 .work_list{
-    
+   
     ul{
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+  
+
         li{
             margin: $c-padding 0;
             position: relative;
+            
             a{
                 transition: all 0.5s ease-in-out;
                 border: none;
-                
+
+                        
                 &:hover{
                     border: none;
                     text-decoration: none;
@@ -37,16 +41,15 @@
                 figure{
                     position: absolute;
                     z-index: 1;
-                    background-color: gainsboro;
+                    
                 }
             }  
             
             &.proj1{
                 max-width: 500px;
-                height: 290px;
+                height: 390px;
                 @include xs {
-                   
-                    height: 150px;
+                    height: 200px;
                 }
                 figure{
                     width: 200px;
@@ -62,19 +65,91 @@
             }
             &.proj2{
                 max-width: 400px;
-                height: 400px;
+                height: 150px;
                 align-self: start;
                 left: 40px;
+                @include xs {
+                    height: 150px;
+                }
+                h4{
+                    @include xs {
+                        max-width: 40px;
+                    }
+                }
                 figure{
-                    max-width: 500px;
-                    width: 100%;
+                    width: 200px;
                     height: 200px;
-                    top: 100px;
-                    left: 200px;
+                    top: -110px;
+                    left: 280px;
+                    @include xs {
+                        width: 100px;
+                        height: 100px;
+                        left: 80px;
+                        top: -40px;
+                    }
+                }
+            }
+            &.proj3{
+                max-width: 400px;
+                height: 350px;
+                align-self: flex-end;
+                left: -80px;
+                @include xs {
+                    height: 170px;
+                    align-self: flex-start;
+                    left: 80px;
+                }
+                h4{
+                    @include xs {
+                        max-width: 40px;
+                    }
+                }
+                figure{
+                    width: 280px;
+                    height: 200px;
+                    top: 120px;
+                    left: -240px;
+                    @include xs {
+                        width: 170px;
+                    height: 200px;
+                    top: 20px;
+                    left: -150px;
+                    }
+                }
+            }
+            &.proj4{
+                max-width: 400px;
+                height: 200px;
+                align-self: start;
+                left: 40px;
+                @include xs {
+                    height: 200px;
+                }
+                h4{
+                    @include xs {
+                        max-width: 40px;
+                    }
+                }
+                figure{
+                    width: 480px;
+                    height: 200px;
+                    top: 20px;
+                    left: 190px;
+                    @include xs {
+                        width: 310px;
+                        height: 200px;
+                        left: 80px;
+                        top: 40px;
+                    }
                 }
             }
         }
     }
     
 }
+
+
+
+
+//paralax
 

@@ -1,0 +1,113 @@
+
+
+
+.about-page{
+    max-width: 800px;
+    margin: 1rem auto;
+    padding: 0 50px;
+    @include sm{
+        padding: 0 100px;
+    }
+    h2{
+        font-family: $h-font;
+        color: $brand-color;
+        font-size: 5rem;
+        margin-bottom: 0;
+       white-space: pre-line;
+        padding-bottom: 1rem;
+        width: 200px;
+        @include sm{
+            font-size: 5rem;
+            margin-left: -100px;
+            width: 100px;
+        }
+        @include lg{
+            font-size: 7rem;
+        }
+    }
+    p{
+        font-size: 1.3rem;
+    }
+    em{
+        text-align: center;
+        font-size: 0.8rem;
+    }
+
+    .img1{
+        @include sm{
+            margin-left: -250px;
+        max-width: 400px;
+        &+em{
+            margin-left: -250px;
+        }
+        }
+        
+    }
+
+    .img11{
+        @include sm{
+            margin-left: 250px;
+            max-width: 400px;
+            margin-top: -100px;
+            &+em{
+                margin-left: 250px;
+            }
+        }
+    }
+    .img111{
+        margin-top: 20px;
+        @include sm{
+         
+            max-width: 400px;
+          
+            &+em{
+             
+            }
+        }
+    }
+
+    .img2{
+        @include sm{
+            margin-left: 350px;
+            max-width: 350px;
+            
+            &+em{
+                margin-left: 350px;
+            }
+        }
+    }
+
+    .img22{
+        @include sm{
+            margin-left: -150px;
+        max-width: 450px;
+        margin-top: -150px;
+        &+em{
+            margin-left: -150px;
+        }
+        }
+    }
+
+    .img222{
+        @include sm{
+          
+       
+        margin-top: 50px;
+        &+em{
+            
+        }
+        }
+    }
+
+    .img3{
+        @include sm{
+            margin-left: -50px;
+        max-width: 450px;
+     
+        &+em{
+            margin-left: -50px;
+        }
+        }
+    }
+
+}

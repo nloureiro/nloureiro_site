@@ -8,9 +8,16 @@ intro_paragraph: |
 ---
 The work I've been doing for the last 20 years has been heavily influenced by this background, from the fundamentals I learned from an Industrial Designer degree I took in 2002, and the various experiences and projects I've gone through in my professional career.
 
+![me](/assets/img/work/various/glass_jars.jpg){:.img1} *My bestseller product design in 1999*
+
+
 At the beginning of my career, I worked as a product designer for the ceramic and glass industry, where I create a series of pieces for tableware and decoration.
 
+![me](/assets/img/work/various/house_in_caxias.jpg){:.img2} *Exemple of some CAD/3D work from 2004*
+
 In the same period, I started helping architects and landscape designers with 3D visualizations. This dragged me into big scale, work-intensive CAD projects. I learned a lot about the importance of putting all the pieces together to achieve a goal and the symbiotic relationship between architects and engineering, creativity, and science. I still use these learnings today, when I'm working on complex digital projects.
+
+![me](/assets/img/work/various/jular2.png){:.img3} *My first big website back in 2007*
 
 My transition to digital was natural at some point. I self-taught myself HTML and CSS and started working in a small agency building websites for clients. The Internet became my passion. I never stopped working on digital products ever since.
 

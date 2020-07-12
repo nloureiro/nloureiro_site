@@ -1,0 +1,41 @@
+---
+layout: default_no_tops
+---
+
+
+<section class="my_home">
+  <div>
+    222222
+    <nav>
+      {% include navigation.html navigation=site.data.navigation %}
+    </nav>
+
+    <h2><span>My name is Nuno Loureiro</span>
+      <span>& I’m a designer.</span>
+      <b></b>
+      <span>Welcome to my virtual little corner.</span>
+      I hope you enjoy.
+      </h2>
+  </div> 
+</section>
+
+
+
+
+
+
+{% comment %}
+  <section>
+
+    <h3>Recent posts from the blog</h3>
+
+    <ul>
+      {% for post in site.posts limit:3 %}
+        <li>
+          <a href="{{ post.url }}">{{ post.title }}</a>
+        </li>
+      {% endfor %}
+    </ul>
+
+  </section>
+  {% endcomment %}

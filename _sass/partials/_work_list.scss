@@ -1,7 +1,43 @@
 
 
+.portfolio_top_page{
+    max-width: 800px;
+    margin: 1rem auto;
+    padding: 0 50px;
+    @include sm{
+        padding: 0 100px;
+    }
+    h2{
+        font-family: $h-font;
+        color: $brand-color;
+        font-size: 5rem;
+        margin-bottom: 0;
+       white-space: pre-line;
+        padding-bottom: 1rem;
+        width: 200px;
+        @include sm{
+            font-size: 5rem;
+            margin-left: -100px;
+            width: 300px;
+        }
+        @include lg{
+            font-size: 7rem;
+        }
+    }
+    p{
+        font-size: 1.3rem;
+        margin: 0;
+    }
+    em{
+        text-align: center;
+        font-size: 0.8rem;
+    }
+}
+
 .work_list{
-   
+   max-width: 1200px;
+   position: relative;
+   margin: 0 auto 8rem;
     ul{
         display: flex;
         flex-direction: column;

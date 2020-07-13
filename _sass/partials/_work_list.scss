@@ -15,6 +15,7 @@
        white-space: pre-line;
         padding-bottom: 1rem;
         width: 200px;
+        line-height: 6rem;
         @include sm{
             font-size: 5rem;
             margin-left: -100px;
@@ -122,7 +123,7 @@
                     height: 150px;
                 }
                 h4{
-                    mix-blend-mode: color-dodge;
+                    mix-blend-mode: multiply;
                     @include xs {
                         max-width: 40px;
                     }
@@ -152,7 +153,7 @@
                     left: 60px;
                 }
                 h4{
-                    mix-blend-mode: color-dodge;
+                    mix-blend-mode: multiply;
                     @include xs {
                         max-width: 40px;
                     }
@@ -179,7 +180,7 @@
                     height: 200px;
                 }
                 h4{
-                    mix-blend-mode: luminosity;
+                    mix-blend-mode: exclusion;
                     @include xs {
                         max-width: 40px;
                     }

@@ -4,9 +4,9 @@ $hamburger-menu-border-radius: .12em;
 $hamburger-menu-bg-color: #fff;
 $hamburger-menu-line-height: 2px;
 $hover-line-height: $hamburger-menu-line-height;
-$hover-color:#fff;
+$hover-color:#8BADF8;
 $content-bg-color: $strong-color;
-$main-color: #8BADF8;
+$main-color: $brand-color;
 $anim-duration: .4s;
 
 .flex-center {
@@ -161,6 +161,7 @@ $anim-duration: .4s;
         text-align: center;
         max-width: 90vw;
         max-height: 100vh;
+        height: 100vh;
         opacity: 0;
         transition: opacity $anim-duration ease;
         overflow-y: auto;
@@ -189,14 +190,14 @@ $anim-duration: .4s;
               transition: color $anim-duration ease;
               text-decoration: none;
         
-              color: $brand-color;
+              color: #fff;
             font-family: $h-font;
             border: none;
             font-size: 3rem;
             line-height: 3.2rem;
               
               &:hover {
-                color: $hover-color;
+                color: #8BADF8;
                 
                 &:after {
                   width: 100%;

@@ -15,6 +15,7 @@
        white-space: pre-line;
         padding-bottom: 1rem;
         width: 200px;
+        line-height: 6rem;
         @include sm{
             font-size: 5rem;
             margin-left: -100px;
@@ -32,6 +33,16 @@
         text-align: center;
         font-size: 0.8rem;
     }
+}
+
+.the_end_p{
+    text-align: center;
+    font-size: 1.5rem;
+    color: $brand-color;
+    font-style: italic;
+    margin-top: 10rem;
+    
+    padding-top: 5rem;
 }
 
 .work_list{
@@ -84,72 +95,79 @@
             &.proj1{
                 max-width: 500px;
                 height: 390px;
+                left: 17%;
                 @include xs {
-                    height: 200px;
+                    height: 140px;
+                }
+                h4{
+                    mix-blend-mode: hard-light;
                 }
                 figure{
-                    width: 200px;
+                    width: 250px;
                     height: 300px;
                     top: 0;
-                    right: -100px;
+                    right: -8%;
                     @include xs {
                         width: 100px;
                         height: 200px;
-                        right: -30px;
+                        right: 20%;
                     }
                 }
             }
             &.proj2{
                 max-width: 400px;
-                height: 150px;
+                height: 200px;
                 align-self: start;
                 left: 40px;
                 @include xs {
                     height: 150px;
                 }
                 h4{
+                    mix-blend-mode: multiply;
                     @include xs {
                         max-width: 40px;
                     }
                 }
                 figure{
-                    width: 200px;
+                    width: 630px;
                     height: 200px;
-                    top: -110px;
-                    left: 280px;
+                    top: 0px;
+                    left: 42%;
                     @include xs {
-                        width: 100px;
+                        width: 400px;
                         height: 100px;
                         left: 80px;
-                        top: -40px;
+                        top: 50px;
+                    
                     }
                 }
             }
             &.proj3{
                 max-width: 400px;
-                height: 350px;
+                height: 400px;
                 align-self: flex-end;
                 left: -80px;
                 @include xs {
                     height: 170px;
                     align-self: flex-start;
-                    left: 80px;
+                    left: 60px;
                 }
                 h4{
+                    mix-blend-mode: multiply;
                     @include xs {
                         max-width: 40px;
                     }
                 }
                 figure{
-                    width: 280px;
+                    width: 330px;
                     height: 200px;
-                    top: 120px;
-                    left: -240px;
+                    top: 30px;
+                    left: -250px;
                     @include xs {
                         width: 170px;
                     height: 200px;
                     top: 20px;
-                    left: -150px;
+                    left: -120px;
                     }
                 }
             }
@@ -162,20 +180,21 @@
                     height: 200px;
                 }
                 h4{
+                    mix-blend-mode: exclusion;
                     @include xs {
                         max-width: 40px;
                     }
                 }
                 figure{
-                    width: 480px;
+                    width: 530px;
                     height: 200px;
-                    top: 20px;
+                    top: -70px;
                     left: 190px;
                     @include xs {
                         width: 310px;
                         height: 200px;
-                        left: 80px;
-                        top: 40px;
+                        left: 40px;
+                        top: 30px;
                     }
                 }
             }

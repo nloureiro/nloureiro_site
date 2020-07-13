@@ -6,6 +6,8 @@ section: about
 intro_paragraph: |
  
 ---
+I was born and grew up in the old part of Lisbon city. Walking through century-old streets as a kid, looking at the Portuguese colors and the tiles in the buildings, and living the open-minded metropolis culture of my hometown in this little European corner inspired me.
+
 The work I've been doing for the last 20 years has been heavily influenced by this background, from the fundamentals I learned from an Industrial Designer degree I took in 2002, and the various experiences and projects I've gone through in my professional career.
 
 ![me](/assets/img/work/various/glass_vase.jpg){:.img1} *One of my first projects as a profissional designer*

@@ -47,9 +47,13 @@
     height: 100vh;
     background-color: $strong-color;
     background-image: url(../../assets/img/me.jpg);
-    background-size: auto 100% ;
+    background-size: auto 70% ;
     background-repeat: no-repeat;
-    background-position: 0 0;
+    background-position: 0 bottom;
+    @include sm{
+        background-position: 0 0;
+        background-size: auto 100% ;
+    }
     div{
         max-width: 290px;
         padding: $a-padding;

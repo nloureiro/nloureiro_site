@@ -10,6 +10,7 @@ topimageformat: jpg
 topimagealt: Portugal Participatory Budget
 content_template: opp
 
+org: Head of design at Bright Pixel
 roles: Lead Designer · Project management 
 tools: Adobe illustrator · MS code · Git
 resources: Django CMS · Bootstrap · SASS · Unsplash photos

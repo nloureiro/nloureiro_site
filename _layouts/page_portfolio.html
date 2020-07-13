@@ -10,6 +10,9 @@ layout: default
             <h2>{{ page.title }}<time>{{ page.year }}</time></h2>
             <div class="proj_details">
                 <ul>
+                    {% if page.org == nil %}<li></li>{% else %}
+                    <li><h5><span>Organization</span>{{ page.org }}</h5></li>
+                    {% endif %}
                     {% if page.roles == nil %}<li></li>{% else %}
                     <li><h5><span>Roles</span>{{ page.roles }}</h5></li>
                     {% endif %}

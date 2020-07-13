@@ -10,6 +10,7 @@ topimageformat: jpg
 topimagealt: Meo Cloud
 content_template: meocloud
 
+org: Lead designer at sapo.pt
 roles: Lead Designer · UX Designer
 tools: Adobe illustrator · Adobe Prhotoshop · Sketch · Git
 resources: Django CMS · Bootstrap

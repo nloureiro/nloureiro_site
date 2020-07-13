@@ -1,6 +1,6 @@
 .proj_navigation{
     display: flex;
-    
+    z-index: 100;
     position: fixed;
     top: 50%;
     right: 6px;
@@ -75,6 +75,8 @@
         position: relative;
     }
     .head{
+        max-width: 1200px;
+        margin: 0 auto;
         h2{
             color: $brand-color;
             font-size: 4rem;
@@ -191,15 +193,23 @@
 
 
 .publico{
+    .body{
+        padding-top: 1rem;
+    }
     .head h2{
         max-width: 600px;
     }
     .top_image_container{
-        right: -100px;
+        right: -180px;
         top: 50px;
         width: 70%;
         max-height: 400px;
         overflow: hidden;
+        @include xs{
+            right: -80px;
+            width: 50%;
+
+        }
     }
 
     .video{
@@ -229,15 +239,20 @@
 
 
 .brpx{
+
+    .body{
+        padding-top: 1rem;
+    }
     .head h2{
         max-width: 600px;
     }
     .top_image_container{
-        right: -100px;
+        right: -65px;
         top: 70px;
-        width: 70%;
+        width: 50%;
         max-height: 450px;
         overflow: hidden;
+        
     }
 }
 
@@ -245,12 +260,13 @@
 .opp{
     .head h2{
         max-width: 600px;
+        mix-blend-mode: multiply;
     }
     .top_image_container{
-        right: -100px;
+        right: -500px;
         top: 70px;
-        width: 70%;
-        max-height: 450px;
+        width: 80%;
+        max-height: 510px;
         overflow: hidden;
     }
 }

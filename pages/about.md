@@ -8,6 +8,8 @@ intro_paragraph: |
 ---
 I was born and raised in the old part of Lisbon. Walking through century-old streets as a kid, looking at the Portuguese colors and the tiles in the buildings, and living the open-minded metropolis culture of my hometown in this little European corner inspired me.
 
+![me](/assets/img/work/various/me_at_4.jpg){:.img0} *Me when I was 4*
+
 The work I've been doing for the last 20 years has been heavily influenced by this background and by experiences like an Industrial Designer degree I got in 2002 and the various projects I've gone through in my professional career.
 
 At the beginning of my career, in 1998, I worked as a product designer for the ceramic and glass industry, where I created a series of pieces for tableware and decoration.
@@ -32,9 +34,11 @@ In 2003 my transition to digital was a natural one. I taught myself HTML and CSS
 At Sapo, 2009 to 2016, I was also very fortunate to work with amazing people, some of the very best in their fields. Being close to them allowed me to experience the launch of impactful products to end-users and lead the design team in some of them that reach an international scale.
 
 ![me](/assets/img/work/various/sapo.jpg){:.img4} *sapo office interior design made in 2014*
-![me](/assets/img/work/various/sapo2.jpg){:.img4} *sapo facade with 15m height logo made in 2014*
+![me](/assets/img/work/various/sapo2.jpg){:.img44} *sapo facade with 15m height logo made in 2014*
 
 The latest big challenge in my career was to co-found Bright Pixel and lead the creative department. I worked directly with startups, and big companies rethinking their digital product experience. It was an immensely rewarding experience that broadened my knowledge of business, marketing, and strategy. 
+
+![me](/assets/img/work/various/me_working.jpg){:.img5} *Me at Bright Pixel HQ in 2016, the first days*
 
 Because of all this, I find it hard to put my path as a designer in writing. I have worn many hats, and I feel that my core skills lie between the experiences I gathered in designing, doing creative thinking, and teamwork.
 

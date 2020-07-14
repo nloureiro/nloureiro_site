@@ -29,7 +29,7 @@ I still use these learnings today, when I'm working on complex digital projects.
 In 2003 my transition to digital was a natural one. I taught myself HTML and CSS and started working in a small agency building websites for clients. The Internet became my passion, and I've been working on digital products ever since.
 
 ![me](/assets/img/work/various/jular2.png){:.img3} *My first big website back in 2007*
-![me](/assets/img/work/various/lugar_ao_sal.gif){:.img33} *My first big website back in 2007*
+![me](/assets/img/work/various/lugar_ao_sal.gif){:.img33} *Interactive project to teach kids in 2006*
 
 At [Sapo](https://www.sapo.pt/), 2009 to 2016, I led design teams and was very fortunate to work with amazing people - some of the very best in their fields. Together we were able to launch very impactful products that reached an international scale.
 

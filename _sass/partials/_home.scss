@@ -55,20 +55,20 @@
         background-size: auto 100% ;
     }
     div{
-        max-width: 290px;
+        max-width: 410px;
         padding: $a-padding;
 
     }
     nav{
         a, li{
-            color: $brand-color;
+            color: #fff;
             font-family: $h-font;
             border: none;
-            font-size: 3rem;
-            line-height: 3.2rem;
+            font-size: 5rem;
+            line-height: 5.2rem;
             @include sm {
-                font-size: 5rem;
-                line-height: 4.5rem;
+                font-size: 5.6rem;
+                line-height: 5.2rem;
             }
         }
         a:hover{
@@ -79,11 +79,11 @@
     }
     h2{
         color: #fff;
-        font-size: 0.8rem;
+        font-size: 1.2rem;
         line-height: 1.2rem;
         @include sm {
-            font-size: 1rem;
-            line-height: 1.5rem;
+            font-size: 1.2rem;
+            line-height: 1.7rem;
         }
         span{
             display: block;

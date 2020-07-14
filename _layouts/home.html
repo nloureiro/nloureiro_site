@@ -2,7 +2,7 @@
 layout: default_no_tops
 ---
 
-
+{% comment %}
 <section class="my_home">
   <div>
     <h2><span>My name is Nuno Loureiro</span>
@@ -13,8 +13,8 @@ layout: default_no_tops
       </h2>
   </div> 
 </section>
+{% endcomment %}
 
-{% comment %}
 <section class="my_home">
   <div>
     
@@ -22,15 +22,17 @@ layout: default_no_tops
       {% include navigation.html navigation=site.data.navigation %}
     </nav>
 
-    <h2><span>My name is Nuno Loureiro</span>
-      <span>& I’m a designer.</span>
-      <b></b>
+    <h2 class="pt-3"><span>My name is Nuno Loureiro</span>
+   
+
+      <span class="pb-3">Creative Director & Designer</span>
+      
       <span>Welcome to my virtual little corner.</span>
       I hope you enjoy.
       </h2>
   </div> 
 </section>
-{% endcomment %}
+
 
 
 

@@ -20,7 +20,7 @@
         @include sm{
             font-size: 5rem;
             margin-left: -100px;
-            width: 100px;
+            width: 500px;
         }
         @include lg{
             font-size: 7rem;
@@ -33,6 +33,20 @@
         text-align: center;
         font-size: 1rem;
         opacity: 0.5;
+    }
+
+    .img0{
+        @include sm{
+            margin-left: 400px;
+        max-width: 200px;
+        margin-top: -20px;
+        
+        &+em{
+            margin-left: 400px;
+           
+        }
+        }
+        
     }
 
     .img1{
@@ -103,12 +117,46 @@
 
     .img3{
         @include sm{
-            margin-left: -50px;
-        max-width: 450px;
+            margin-left: -150px;
+        max-width: 400px;
      
         &+em{
-            margin-left: -50px;
+            margin-left: -150px;;
         }
+        }
+    }
+    .img33{
+        @include sm{
+            margin-left: 300px;
+        max-width: 400px;
+        margin-top: -200px;
+
+     
+        &+em{
+            margin-left: 300px;
+        }
+        }
+    }
+
+    .img4{
+        @include sm{
+            margin-left: 250px;
+            max-width: 420px;
+           
+            &+em{
+                margin-left: 250px;
+            }
+        }
+    }
+    .img44{
+        @include sm{
+            margin-left: -100px;
+            max-width: 440px;
+            margin-top: 50px;
+           
+            &+em{
+                margin-left: -100px;
+            }
         }
     }
 

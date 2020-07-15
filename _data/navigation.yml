@@ -2,10 +2,10 @@
 
 # - text: Home
 #   url: /
-- text: work
-  url: /portfolio
 - text: about
   url: /about
+- text: work
+  url: /portfolio
 # - text: blog
 #   url: /blog
 - text: contact

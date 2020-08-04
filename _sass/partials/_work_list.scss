@@ -90,6 +90,16 @@
                     z-index: 1;
                     
                 }
+                p{
+                    color: $text-color;
+                    position: relative;
+                    z-index: 2;
+                    font-size: 1.2rem;
+                    max-width: 300px;
+                    @include xs {
+                        max-width: 200px;
+                    }
+                }
             }  
             
             &.proj1{
@@ -113,6 +123,7 @@
                         right: 20%;
                     }
                 }
+               
             }
             &.proj2{
                 max-width: 400px;

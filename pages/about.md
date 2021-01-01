@@ -40,6 +40,8 @@ The latest big challenge in my career was to co-found [Bright Pixel](https://brp
 
 ![me](/assets/img/work/various/me_working.jpg){:.img5} *Me at Bright Pixel HQ in 2016, the first days*
 
+2020 was a year to mark in history, for the whole world and for me too. I changed jobs and refocus my professional career, and now I'm the head of design and innovation in an exciting project called [Trojan was a unicorn](https://www.trojan-unicorn.com/).
+
 Check the [portfolio section](portfolio) where I highlight some of the work, if you really need here is my [CV](assets/cv.pdf), and if you have any questions, feel free to send me an [email](mailto:mail@nloureiro.com) or [follow](contact) me on social media.
 
 Thank you for your time and enjoy :)

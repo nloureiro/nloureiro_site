@@ -1,17 +1,14 @@
 ---
 layout: default
 ---
+<div class="blog-list-page">
+  <h2>{{ page.title }}</h2>
 
-<h2>{{ page.title }}</h2>
+  {% include page-intro.html %}
 
-{% include page-intro.html %}
-
-{{ content }}
-
-<section>
-
-  <h3>Posts</h3>
-
+  {{ content }}
+</div>
+<section class="blog-list">
   <ul>
     {% for post in site.posts %}
     {% assign author = site.data.authors[post.author] %}
@@ -31,3 +28,4 @@ layout: default
   </ul>
 
 </section>
+

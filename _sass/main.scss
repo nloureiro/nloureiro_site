@@ -13,8 +13,10 @@
   "partials/work_list",
   "partials/work_page",
   "partials/about_page",
-  "partials/contact_page"
-;
+  "partials/bloglist",
+  "partials/contact_page";
+
+
 
 body{
   background-color:#fff;
@@ -50,11 +52,6 @@ body{
 main{
   padding: $c-padding 0;
 }
-
-
-
-
-
 
 
 

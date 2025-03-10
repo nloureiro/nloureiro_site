@@ -15,8 +15,8 @@ roles: Visual Design · UX design · Research · Specification · High Fidelity 
 tools: Adobe illustrator · Adobe XD · Zepplin · Git  · ProtoPie
 resources: React Native · Bootstrap · SASS · Jquery
 
-previus_project:
-next_project: brpx
+previus_project: brpx
+next_project: thu
 
   
 ---

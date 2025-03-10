@@ -1,6 +1,6 @@
 ---
 layout: page_portfolio
-title: Público Mobile Applications
+title: Trojan horse was a Unicorn digital
 permalink: /portfolio/thu
 section: portfolio
 year: '2019_2022'
@@ -15,8 +15,8 @@ roles: Visual Design · UX design · Research · Specification · High Fidelity 
 tools: Adobe illustrator · Adobe XD · Zepplin · Git  · ProtoPie
 resources: React Native · Bootstrap · SASS · Jquery
 
-previus_project:
-next_project: brpx
+previus_project: publico
+next_project: meocloud
 
   
 ---

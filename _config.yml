@@ -18,7 +18,9 @@ email: nuno@nloureiro.com
 description: >- # this means to ignore newlines until "baseurl:"
   Nuno Loureiro Personal website where you can find some of the awesome projects
 baseurl: "" # the subpath of your site if applicable, e.g. /blog
-url: "https://nloureiro.com" # the base hostname & protocol for your site, e.g. https://example.com
+url: "" # Leave empty for local development
+# or for production:
+# url: "https://yourdomain.com"
 
 # Permalink format (/blog/ is ignored for pages)
 permalink: /blog/:title

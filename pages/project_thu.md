@@ -10,10 +10,10 @@ topimageformat: jpg
 topimagealt: Project Trojan Horse was a Unicorn
 content_template: thu
 
-org: Head of design at Trojan Horse was a Unicorn
-roles: Visual Design · UX design · Research · Specification · High Fidelity Mokups · Project management 
-tools: Adobe illustrator · Adobe XD · Zepplin · Git  · ProtoPie
-resources: React Native · Bootstrap · SASS · Jquery
+org: Head of design for digital at Trojan Horse was a Unicorn
+roles: Visual Design · UX design · Research · High Fidelity Mokups · Project management 
+tools: Adobe illustrator · Figma · Git
+resources: HTML/CSS · Ruby · Tailwind · React Native
 
 previus_project: publico
 next_project: meocloud

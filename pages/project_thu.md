@@ -5,7 +5,7 @@ permalink: /portfolio/thu
 section: portfolio
 year: '2020_2022'
 
-topimage: listimage2
+topimage: listimage1
 topimageformat: jpg
 topimagealt: Project Trojan Horse was a Unicorn
 content_template: thu

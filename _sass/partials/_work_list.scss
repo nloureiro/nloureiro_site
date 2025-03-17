@@ -102,7 +102,7 @@
                 }
             }  
             
-            &.proj1, &.proj5{
+            &.proj1{
                 max-width: 500px;
                 height: 390px;
                 left: 17%;
@@ -116,7 +116,33 @@
                     width: 250px;
                     height: 300px;
                     top: 0;
-                    right: -8%;
+                    left: -38%;
+                    @include xs {
+                        width: 100px;
+                        height: 200px;
+                        left: -30%;
+                    }
+                }
+               
+            }
+            &.proj5{
+                max-width: 500px;
+                height: 390px;
+                left: 0;
+                @include xs {
+                    height: 140px;
+                }
+                @include lg {
+                    left: -20%;
+                }
+                h4{
+                    mix-blend-mode: hard-light;
+                }
+                figure{
+                    width: 550px;
+                    height: 300px;
+                    top: 0;
+                    left: 60%;
                     @include xs {
                         width: 100px;
                         height: 200px;

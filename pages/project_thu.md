@@ -1,21 +1,21 @@
 ---
 layout: page_portfolio
-title: Trojan horse was a Unicorn digital
+title: Trojan Horse was a Unicorn - Digital Transformation
 permalink: /portfolio/thu
 section: portfolio
-year: '2020_2022'
+year: '2020-2022'
 
 topimage: listimage1
 topimageformat: jpg
-topimagealt: Project Trojan Horse was a Unicorn
+topimagealt: Trojan Horse was a Unicorn Digital Platform
 content_template: thu
 
-org: Head of design for digital at Trojan Horse was a Unicorn
-roles: Visual Design · UX design · Research · High Fidelity Mokups · Project management 
-tools: Adobe illustrator · Figma · Git
-resources: HTML/CSS · Ruby · Tailwind · React Native
+org: Head of Digital Design at Trojan Horse was a Unicorn
+roles: Visual Design · UX Design · User Research · High-Fidelity Prototypes · Project Management 
+tools: Adobe Illustrator · Figma · Git
+technologies: HTML/CSS · Ruby · Tailwind CSS · React Native
 
-previus_project: publico
+previous_project: publico
 next_project: meocloud
 
   

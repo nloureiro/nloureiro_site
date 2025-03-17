@@ -14,15 +14,15 @@ The work I've been doing for the last 20 years has been heavily influenced by th
 
 At the beginning of my career, in 1998, I worked as a product designer for the ceramic and glass industry, where I created a series of pieces for tableware and decoration.
 
-![me](/assets/img/work/various/glass_vase.jpg){:.img1} *One of my first projects as a profissional designer*
+![me](/assets/img/work/various/glass_vase.jpg){:.img1} *One of my first projects as a professional designer*
 ![me](/assets/img/work/various/glass_jars.jpg){:.img11} *My bestseller product design in 1999*
 ![me](/assets/img/work/various/glass_decoration2.jpg){:.img111} *Glass decoration in 2002*
 
-In 2002, I started helping architects and landscape designers with 3D visualizations. This brought me to big scale CAD/3D projects. I learned a lot about the importance of putting all the pieces together to achieve a goal and the symbiotic relationship between architects and engineering, creativity, and science.
+In 2002, I started helping architects and landscape designers with 3D visualizations. This led me to large-scale CAD/3D projects. I learned a lot about the importance of putting all the pieces together to achieve a goal and the symbiotic relationship between architects and engineering, creativity, and science.
 
 ![me](/assets/img/work/various/house_in_caxias.jpg){:.img2} *CAD/3D work for a house from 2004*
 ![me](/assets/img/work/various/parque_aventura.jpg){:.img22} *CAD/3D work for "Parque Aventura" from 2005*
-![me](/assets/img/work/various/work_desk.jpg){:.img222} *Design a custom made desk for an office in 2006*
+![me](/assets/img/work/various/work_desk.jpg){:.img222} *Designing a custom-made desk for an office in 2006*
 
 I still use these learnings today, when I'm working on complex digital projects.
 
@@ -40,9 +40,9 @@ The latest big challenge in my career was to co-found [Bright Pixel](https://brp
 
 ![me](/assets/img/work/various/me_working.jpg){:.img5} *Me at Bright Pixel HQ in 2016, the first days*
 
-2020 was a year to mark in history, for the whole world and for me too. I changed jobs and refocus my professional career, and now I'm the head of design and innovation in an exciting project called [Trojan was a unicorn](https://www.trojan-unicorn.com/).
+2020 was a year to mark in history, for the whole world and for me too. I changed jobs and refocused my professional career, and now I'm the head of design and innovation in an exciting project called [Trojan Horse was a Unicorn](https://www.trojan-unicorn.com/).
 
-Check the [portfolio section](portfolio) where I highlight some of the work, if you really need here is my [CV](assets/cv.pdf), and if you have any questions, feel free to send me an [email](mailto:mail@nloureiro.com) or [follow](contact) me on social media.
+Check the [portfolio section](portfolio) where I highlight some of my work. If you need it, here is my [CV](assets/cv.pdf), and if you have any questions, feel free to send me an [email](mailto:mail@nloureiro.com) or [follow](contact) me on social media.
 
-Thank you for your time and enjoy :)
+Thank you for your time and enjoy! :)
 

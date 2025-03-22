@@ -11,7 +11,7 @@ topimagealt: Trojan Horse was a Unicorn Digital Platform
 content_template: thu
 
 org: Head of Digital Design at Trojan Horse was a Unicorn
-roles: Visual Design · UX Design · User Research · High-Fidelity Prototypes · Project Management 
+roles: Visual Design · UX Design · Front-end HTML/CSS · High-Fidelity Prototypes · Project Management 
 tools: Adobe Illustrator · Figma · Git
 technologies: HTML/CSS · Ruby · Tailwind CSS · React Native
 

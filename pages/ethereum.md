@@ -6,10 +6,10 @@ section: portfolio
 year: '2022-NOW'
 content_template: ethereum
 
-topimage: listimage1
+topimage: top
 topimageformat: jpg
 topimagealt: Ethereum Foundation
-content_template: thu
+content_template: ethereum
 
 org: Lead Designer at Ethereum Foundation
 roles: Visual Design · UX Design · User Research · Front-end HTML/CSS · Print Design 

@@ -14,8 +14,8 @@
     }
     a, a:hover{
         display: block;
-        width: 34px;
-        height: 34px;
+        width: 44px;
+        height: 44px;
         border: none;
         border-radius: 0;
         background-color: #fff;
@@ -56,6 +56,98 @@
         }
     }
 }
+
+
+
+.navigation_holder {
+   position: fixed;
+   right: 0;
+   top: 50%;
+   transform: translateY(-50%);
+   z-index: 100;
+}
+
+.proj_navigation {
+   display: flex;
+   flex-direction: column;
+   gap: 8px;
+}
+
+.pagination_item {
+   position: relative;
+}
+
+.pagination_item span,
+.pagination_item h5 {
+   display: none;
+}
+
+.pagination_item a {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 44px;
+   height: 44px;
+   color: currentColor;
+   border-radius: 0;
+   box-sizing: border-box;
+   transition: all 0.2s ease;
+}
+
+.pagination_item a:hover {
+   border-width: 1px;
+}
+
+.pagination_item svg {
+   width: 24px;
+   height: 8px;
+   margin: 0;
+}
+
+.pagination_item a:hover svg path {
+   stroke-width: 1;
+   stroke: #fff;
+}
+
+/* For the previous (bottom) arrow */
+.pagination_item.previous svg {
+   transform: rotate(180deg);
+}
+
+.pagination_item[data-tooltip]:before {
+   content: attr(data-tooltip);
+   position: absolute;
+   right: calc(100% + 10px);
+   top: 50%;
+   transform: translateY(-50%);
+   padding: 5px 10px;
+   background: rgba(0, 0, 0, 0.8);
+   color: white;
+   font-size: 14px;
+   border-radius: 4px;
+   white-space: nowrap;
+   opacity: 0;
+   visibility: hidden;
+   transition: opacity 0.2s ease, visibility 0.2s ease;
+   pointer-events: none;
+}
+
+.pagination_item[data-tooltip]:hover:before {
+   opacity: 1;
+   visibility: visible;
+}
+
+.pagination_item.disabled {
+   opacity: 0.3;
+   pointer-events: none;
+}
+
+.pagination_item.disabled a {
+   cursor: default;
+}
+
+
+
 
 
 .portfolio{

@@ -151,6 +151,32 @@
                 }
                
             }
+            &.proj6{
+                max-width: 500px;
+                height: 390px;
+                left: 16%;
+                @include xs {
+                    height: 140px;
+                }
+                @include lg {
+                    left: 20%;
+                }
+                h4{
+                    mix-blend-mode: hard-light;
+                }
+                figure{
+                    width: 550px;
+                    height: 300px;
+                    top: 0;
+                    left: -520px;
+                    @include xs {
+                        width: 200px;
+                        height: 300px;
+                        left: -187px;
+                    }
+                }
+               
+            }
             &.proj2{
                 max-width: 400px;
                 height: 200px;

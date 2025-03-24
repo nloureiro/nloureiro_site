@@ -40,7 +40,7 @@ The latest big challenge in my career was to co-found [Bright Pixel](https://brp
 
 ![me](/assets/img/work/various/me_working.jpg){:.img5} *Me at Bright Pixel HQ in 2016, the first days*
 
-In 2023, I joined the [Ethereum Foundation](https://ethereum.org) as a Product Designer, focusing on improving the user experience of ethereum.org and developing tools for the Ethereum ecosystem. Prior to this role, I served as the Head of Design and Innovation at [Trojan Horse was a Unicorn](https://www.trojan-unicorn.com/) from 2020 to 2023, where I led design initiatives for one of the world's most prestigious digital arts events.
+In 2023, I joined the [Ethereum Foundation](https://ethereum.org) as a Lead Product Designer, focusing on improving the user experience of ethereum.org and developing tools for the Ethereum ecosystem. Prior to this role, I served as the Head of Design and Innovation at [Trojan Horse was a Unicorn](https://www.trojan-unicorn.com/) from 2020 to 2023, where I led design initiatives for one of the world's most prestigious digital arts events.
 
 Check the [portfolio section](portfolio) where I highlight some of my work. If you need it, here is my [CV](assets/cv.pdf), and if you have any questions, feel free to send me an [email](mailto:mail@nloureiro.com) or [follow](contact) me on social media.
 

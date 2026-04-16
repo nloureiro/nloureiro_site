@@ -7,7 +7,8 @@ const project = portfolioBySlug('publico')!;
 const body = bodyHtml
   .replaceAll('{{ page.content_template }}', project.slug)
   .replaceAll('{{site.url}}', '')
-  .replaceAll('{{ site.url }}', '');
+  .replaceAll('{{ site.url }}', '')
+  .replaceAll('{% include proj-navigation.html %}', '');
 ---
 
 <Portfolio project={project}>

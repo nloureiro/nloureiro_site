@@ -1,0 +1,11 @@
+---
+interface Props {
+  intro?: string;
+}
+
+const { intro } = Astro.props;
+---
+
+{intro && intro.trim().length > 0 && (
+  <p class="intro" set:html={intro} />
+)}

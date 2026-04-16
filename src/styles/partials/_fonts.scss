@@ -1,0 +1,34 @@
+// Local font faces served from /fonts/ (see public/fonts/)
+// Kept minimal: only the weights actually referenced by the design.
+
+@font-face {
+  font-family: 'silkaregular';
+  src: url('/fonts/silka/silka-regular-webfont.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'silkalight';
+  src: url('/fonts/silka/silka-light-webfont.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'silkabold';
+  src: url('/fonts/silka/silka-bold-webfont.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'salomeregular';
+  src: url('/fonts/salome/salome-webfont.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}

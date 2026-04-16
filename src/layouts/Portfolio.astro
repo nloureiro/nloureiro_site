@@ -1,0 +1,62 @@
+---
+import Default from './Default.astro';
+import ProjectNavigation from '../components/ProjectNavigation.astro';
+import type { PortfolioEntry } from '../data/portfolio';
+
+interface Props {
+  project: PortfolioEntry;
+}
+
+const { project } = Astro.props;
+const imgBase = `/assets/img/work/${project.slug}`;
+const topSrc = `${imgBase}/${project.topImage}.${project.topImageExt}`;
+const topSrc2x = `${imgBase}/${project.topImage}@2x.${project.topImageExt}`;
+const topSrc3x = `${imgBase}/${project.topImage}@3x.${project.topImageExt}`;
+---
+
+<Default
+  title={project.title}
+  description={`${project.title} — case study by Nuno Loureiro`}
+  section="portfolio"
+  ogImage={topSrc}
+>
+  <ProjectNavigation slug={project.slug} />
+  <div class={project.slug}>
+    <section class="head">
+      <div class="top_head_text">
+        <h2>{project.title}<time>{project.year}</time></h2>
+        <div class="proj_details">
+          <ul>
+            {project.org && (
+              <li><h5><span>Role</span>{project.org}</h5></li>
+            )}
+            {project.roles && (
+              <li><h5><span>Responsibilities</span>{project.roles}</h5></li>
+            )}
+            {project.tools && (
+              <li><h5><span>Tools</span>{project.tools}</h5></li>
+            )}
+            {project.resources && (
+              <li><h5><span>Resources</span>{project.resources}</h5></li>
+            )}
+            {project.technologies && (
+              <li><h5><span>Technologies</span>{project.technologies}</h5></li>
+            )}
+          </ul>
+        </div>
+      </div>
+      <div class="top_image_container">
+        <img
+          class="top_image"
+          src={topSrc}
+          srcset={`${topSrc} 1x, ${topSrc2x} 2x, ${topSrc3x} 3x`}
+          alt={project.topImageAlt}
+        />
+      </div>
+    </section>
+
+    <section class="body">
+      <slot />
+    </section>
+  </div>
+</Default>

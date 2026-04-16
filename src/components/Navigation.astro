@@ -1,0 +1,18 @@
+---
+import { navigation } from '../data/navigation';
+
+const currentPath = Astro.url.pathname.replace(/\/$/, '') || '/';
+---
+
+<ul>
+  {navigation.map((item) => {
+    const isCurrent = item.url === currentPath;
+    return (
+      <li>
+        <a href={item.url} data-current={isCurrent ? 'current page' : undefined}>
+          {item.text}
+        </a>
+      </li>
+    );
+  })}
+</ul>

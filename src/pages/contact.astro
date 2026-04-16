@@ -1,0 +1,33 @@
+---
+import Default from '../layouts/Default.astro';
+
+const title = 'Let´s Talk';
+const intro = `Hello. <br>You can reach me on different platforms.<br>If you are in Lisbon or around, we might get a cup of coffee. <br><br>I am looking forward to hearing from you.`;
+
+const links = [
+  { label: 'Email', href: 'mailto:mail@nloureiro.com' },
+  { label: 'X', href: 'https://twitter.com/nloureiro' },
+  { label: 'Bluesky', href: 'https://bsky.app/profile/nloureiro.bsky.social' },
+  { label: 'Farcaster', href: 'https://warpcast.com/nloureiro' },
+  { label: 'Github', href: 'https://github.com/nloureiro' },
+  { label: 'Linkedin', href: 'https://www.linkedin.com/in/nloureiro/' },
+  { label: 'Pinterest', href: 'https://www.pinterest.pt/nloureiro/' },
+  { label: 'Vsco', href: 'https://vsco.co/nloureiro/gallery' },
+];
+---
+
+<Default title={title} section="contact">
+  <div class="contact-page">
+    <h2>{title}</h2>
+    <div>
+      <p class="intro" set:html={intro} />
+    </div>
+    <div class="social_links">
+      <ul>
+        {links.map((link) => (
+          <li><a href={link.href}>{link.label}</a></li>
+        ))}
+      </ul>
+    </div>
+  </div>
+</Default>

@@ -1,0 +1,29 @@
+---
+import Default from './Default.astro';
+import PageIntro from '../components/PageIntro.astro';
+
+interface Props {
+  frontmatter: {
+    title: string;
+    section?: string;
+    description?: string;
+    intro_paragraph?: string;
+  };
+}
+
+const { frontmatter } = Astro.props;
+---
+
+<Default
+  title={frontmatter.title}
+  description={frontmatter.description}
+  section={frontmatter.section ?? 'about'}
+>
+  <div class="about-page">
+    <h2>{frontmatter.title}</h2>
+    <div>
+      <PageIntro intro={frontmatter.intro_paragraph} />
+      <slot />
+    </div>
+  </div>
+</Default>

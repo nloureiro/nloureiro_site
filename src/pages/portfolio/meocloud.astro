@@ -1,0 +1,15 @@
+---
+import Portfolio from '../../layouts/Portfolio.astro';
+import { portfolioBySlug } from '../../data/portfolio';
+import bodyHtml from '../../portfolio-bodies/meocloud.html?raw';
+
+const project = portfolioBySlug('meocloud')!;
+const body = bodyHtml
+  .replaceAll('{{ page.content_template }}', project.slug)
+  .replaceAll('{{site.url}}', '')
+  .replaceAll('{{ site.url }}', '');
+---
+
+<Portfolio project={project}>
+  <Fragment set:html={body} />
+</Portfolio>

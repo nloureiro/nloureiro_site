@@ -1,0 +1,92 @@
+---
+import { portfolioNeighbors } from '../data/portfolio';
+
+interface Props {
+  slug: string;
+}
+
+const { slug } = Astro.props;
+const { next, previous } = portfolioNeighbors(slug);
+---
+
+<div class="navigation_holder">
+  <nav class="proj_navigation">
+    <div
+      class:list={['pagination_item', 'next', { disabled: !next }]}
+      data-tooltip={next?.shortTitle}
+    >
+      {next ? (
+        <a href={`/portfolio/${next.slug}`} aria-label="Next project">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="8" viewBox="0 0 24 8">
+            <path
+              d="M0.5,0.5H23.5l-7.128,7.128"
+              fill="none"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1"
+            />
+          </svg>
+        </a>
+      ) : (
+        <a aria-label="Next project" aria-disabled="true">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="8" viewBox="0 0 24 8">
+            <path
+              d="M0.5,0.5H23.5l-7.128,7.128"
+              fill="none"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1"
+            />
+          </svg>
+        </a>
+      )}
+    </div>
+
+    <div
+      class:list={['pagination_item', 'previous', { disabled: !previous }]}
+      data-tooltip={previous?.shortTitle}
+    >
+      {previous ? (
+        <a href={`/portfolio/${previous.slug}`} aria-label="Previous project">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="8"
+            viewBox="0 0 24 8"
+            style="transform: rotate(180deg)"
+          >
+            <path
+              d="M0.5,0.5H23.5l-7.128,7.128"
+              fill="none"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1"
+            />
+          </svg>
+        </a>
+      ) : (
+        <a aria-label="Previous project" aria-disabled="true">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="8"
+            viewBox="0 0 24 8"
+            style="transform: rotate(180deg)"
+          >
+            <path
+              d="M0.5,0.5H23.5l-7.128,7.128"
+              fill="none"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1"
+            />
+          </svg>
+        </a>
+      )}
+    </div>
+  </nav>
+</div>

@@ -1,8 +1,27 @@
-_site
-.sass-cache
+# Jekyll legacy
+_site/
+.jekyll-cache/
 .jekyll-metadata
+.sass-cache/
 .users.yml
-assets/img/.DS_Store
-assets/.DS_Store
+
+# Astro
+dist/
+.astro/
+
+# Node
+node_modules/
+
+# Wrangler
+.wrangler/
+.dev.vars
+
+# macOS
 .DS_Store
-/.DS_Store
+**/.DS_Store
+
+# Editor / OS
+*.log
+.env
+.env.*
+!.env.example

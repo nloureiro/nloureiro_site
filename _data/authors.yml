@@ -1,8 +1,0 @@
-# specify site authors in this file
-# you can add .yml files for any other global data in this folder
-
-
-nuno_loureiro:
-    name: Nuno Loureiro
-    email: nuno@nloureiro.com
-    web: http://twitter.com/nloureiro

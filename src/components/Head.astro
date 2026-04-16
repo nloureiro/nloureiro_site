@@ -1,0 +1,54 @@
+---
+import { SITE_TITLE, SITE_DESCRIPTION, SITE_URL, SITE_TWITTER, OG_IMAGE } from '../consts';
+
+interface Props {
+  title?: string;
+  description?: string;
+  section?: string;
+  ogImage?: string;
+  publishedDate?: string;
+}
+
+const {
+  title,
+  description,
+  section,
+  ogImage = OG_IMAGE,
+  publishedDate,
+} = Astro.props;
+
+const fullTitle = title && section !== 'home' ? title : SITE_TITLE;
+const metaDescription = (description ?? SITE_DESCRIPTION).slice(0, 160);
+const canonical = new URL(Astro.url.pathname, SITE_URL).toString();
+const ogImageUrl = new URL(ogImage, SITE_URL).toString();
+const isPost = section === 'post';
+---
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>{fullTitle}</title>
+  <meta name="description" content={metaDescription} />
+  <link rel="canonical" href={canonical} />
+  <link rel="icon" href="/favicon.ico" />
+  <link rel="icon" type="image/png" href="/favicon.png" />
+  <link rel="sitemap" href="/sitemap-index.xml" />
+
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:type" content={isPost ? 'article' : 'website'} />
+  <meta property="og:title" content={fullTitle} />
+  <meta property="og:url" content={canonical} />
+  <meta property="og:image" content={ogImageUrl} />
+  <meta property="og:site_name" content={SITE_TITLE} />
+  <meta property="og:description" content={metaDescription} />
+  {isPost && publishedDate && (
+    <meta property="article:published_time" content={publishedDate} />
+  )}
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content={fullTitle} />
+  <meta name="twitter:description" content={metaDescription} />
+  <meta name="twitter:image" content={ogImageUrl} />
+  <meta name="twitter:site" content={SITE_TWITTER} />
+  <meta name="twitter:creator" content={SITE_TWITTER} />
+</head>

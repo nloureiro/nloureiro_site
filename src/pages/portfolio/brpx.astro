@@ -1,0 +1,16 @@
+---
+import Portfolio from '../../layouts/Portfolio.astro';
+import { portfolioBySlug } from '../../data/portfolio';
+import bodyHtml from '../../portfolio-bodies/brpx.html?raw';
+
+const project = portfolioBySlug('brpx')!;
+const body = bodyHtml
+  .replaceAll('{{ page.content_template }}', project.slug)
+  .replaceAll('{{site.url}}', '')
+  .replaceAll('{{ site.url }}', '')
+  .replaceAll('{% include proj-navigation.html %}', '');
+---
+
+<Portfolio project={project}>
+  <Fragment set:html={body} />
+</Portfolio>

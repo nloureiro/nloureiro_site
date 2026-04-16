@@ -1,0 +1,44 @@
+---
+import Head from '../components/Head.astro';
+import Logo from '../components/Logo.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import '../styles/main.scss';
+
+interface Props {
+  title?: string;
+  description?: string;
+  section?: string;
+  ogImage?: string;
+  publishedDate?: string;
+  hideHeader?: boolean;
+}
+
+const {
+  title,
+  description,
+  section,
+  ogImage,
+  publishedDate,
+  hideHeader = false,
+} = Astro.props;
+---
+
+<!doctype html>
+<html data-current={section} lang="en">
+  <Head
+    title={title}
+    description={description}
+    section={section}
+    ogImage={ogImage}
+    publishedDate={publishedDate}
+  />
+  <body class={section}>
+    <div class="outline m-scene" id="main">
+      <Logo />
+      {!hideHeader && <Header />}
+      <main class="scene_element scene_element--fadein"><slot /></main>
+      <Footer />
+    </div>
+  </body>
+</html>

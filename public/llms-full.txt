@@ -1,0 +1,152 @@
+# Nuno Loureiro — Full Context
+
+> Lead Product Designer at Ethereum Foundation, based in Lisbon, Portugal. 25+ years of experience in product design, UX, visual design, and creative direction.
+
+This file contains the complete text of nloureiro.com for LLMs that cannot follow links or need the full context in a single read.
+
+---
+
+## Identity
+
+- **Name:** Nuno Loureiro
+- **Role:** Lead Product Designer
+- **Employer:** Ethereum Foundation (ethereum.org)
+- **Location:** Lisbon, Portugal
+- **Email:** mail@nloureiro.com
+- **Website:** https://nloureiro.com
+- **LinkedIn:** https://www.linkedin.com/in/nloureiro/
+- **GitHub:** https://github.com/nloureiro
+- **Bluesky:** https://bsky.app/profile/nloureiro.bsky.social
+- **Farcaster:** https://warpcast.com/nloureiro
+- **Twitter/X:** https://twitter.com/nloureiro
+
+---
+
+## About
+
+I was born and raised in the old part of Lisbon. Walking through century-old streets as a kid, looking at the Portuguese colors and the tiles in the buildings, and living the open-minded metropolis culture of my hometown in this little European corner inspired me.
+
+The work I've been doing for the last 25+ years has been heavily influenced by this background and by experiences like an Industrial Designer degree I got in 2002 and the various projects I've gone through in my professional career.
+
+At the beginning of my career, in 1998, I worked as a product designer for the ceramic and glass industry, where I created a series of pieces for tableware and decoration.
+
+In 2002, I started helping architects and landscape designers with 3D visualizations. This led me to large-scale CAD/3D projects. I learned a lot about the importance of putting all the pieces together to achieve a goal and the symbiotic relationship between architects and engineering, creativity, and science.
+
+In 2003, my transition to digital was a natural one. I taught myself HTML and CSS and started working in a small agency building websites for clients. The Internet became my passion, and I've been working on digital products ever since.
+
+At Sapo (https://www.sapo.pt/), 2009 to 2016, I led design teams and was very fortunate to work with amazing people — some of the very best in their fields. Together we were able to launch very impactful products that reached an international scale.
+
+The latest big challenge in my career was to co-found Bright Pixel (https://brpx.com/) and lead the creative department. I worked directly with startups and big companies rethinking their digital product experience. It was an immensely rewarding experience that broadened my knowledge of business, marketing, and strategy.
+
+In 2023, I joined the Ethereum Foundation (https://ethereum.org) as a Lead Product Designer, focusing on improving the user experience of ethereum.org and developing tools for the Ethereum ecosystem. Prior to this role, I served as the Head of Design and Innovation at Trojan Horse was a Unicorn (https://www.trojan-unicorn.com/) from 2020 to 2023, where I led design initiatives for one of the world's most prestigious digital arts events.
+
+---
+
+## Career Timeline
+
+- **1998–2002:** Product designer, ceramic and glass industry (tableware and decoration)
+- **2002–2008:** 3D/CAD visualisation for architects and landscape designers
+- **2003–2009:** Web design at a small agency; self-taught HTML/CSS
+- **2009–2016:** Design lead at Sapo — Portugal's largest web portal (MEO/PT Telecom). Led teams shipping products at international scale, including MEO Cloud (cloud storage)
+- **2016–2020:** Co-founder and Head of Design at Bright Pixel. Worked with startups and large companies on digital product design, brand systems, and creative direction
+- **2020–2023:** Head of Design and Innovation at Trojan Horse was a Unicorn (THU) — one of the world's most prestigious digital arts events. Led the full digital transformation of the event
+- **2023–present:** Lead Product Designer at Ethereum Foundation. Focused on ethereum.org UX and Ethereum ecosystem design tooling
+
+---
+
+## Skills & Expertise
+
+- Product Design
+- UX Design and User Research
+- Visual Design and Creative Direction
+- Design Systems
+- Front-end HTML/CSS
+- High-Fidelity Prototyping
+- Project Management
+- Ethereum and Web3 / Blockchain UX
+- Open Source Design
+- Print Design
+
+**Tools:** Figma, Penpot, Adobe Illustrator, Adobe Photoshop, Adobe XD, Sketch, VS Code, Git
+
+**Technologies:** HTML/CSS, Next.js, Tailwind CSS, shadcn, React Native, SASS
+
+---
+
+## Selected Work
+
+### Ethereum Foundation (2023–present)
+
+**Role:** Lead Product Designer at Ethereum Foundation
+**Responsibilities:** Visual Design · UX Design · User Research · Front-end HTML/CSS · Print Design
+**Tools:** Adobe Illustrator · Figma · Git · Penpot · Adobe Photoshop
+**Technologies:** HTML/CSS · Next.js · Tailwind CSS · shadcn
+
+Improving the user experience of ethereum.org and building tools for the Ethereum ecosystem. Work includes UX research, interface design, design systems, and contributing to open source design tools for the Ethereum community.
+
+---
+
+### Trojan Horse was a Unicorn — Digital Transformation (2020–2022)
+
+**Role:** Head of Digital Design at Trojan Horse was a Unicorn
+**Responsibilities:** Visual Design · UX Design · Front-end HTML/CSS · High-Fidelity Prototypes · Project Management
+**Tools:** Adobe Illustrator · Figma · VS Code · Git
+**Technologies:** HTML/CSS · Ruby · Tailwind CSS · React Native
+
+Brought the creative community online and created a unique digital experience for one of the world's most prestigious digital arts events. Led the complete digital transformation — platform architecture, identity, and user experience.
+
+---
+
+### Público Mobile Applications (2019)
+
+**Role:** Head of Design at Bright Pixel
+**Responsibilities:** Visual Design · UX Design · Research · Specification · High Fidelity Mockups · Project Management
+**Tools:** Adobe Illustrator · Adobe XD · Zeplin · Git · ProtoPie
+**Resources:** React Native · Bootstrap · SASS · jQuery
+
+Mobile applications for one of the major newspapers in Portugal. Designed the full mobile experience across iOS and Android, from research and specification through to high-fidelity mockups and developer handoff.
+
+---
+
+### Bright Pixel System (2016–2019)
+
+**Role:** Head of Design at Bright Pixel (co-founder)
+**Responsibilities:** Creative Director · Project Management
+**Tools:** Adobe Illustrator · Adobe Photoshop · VS Code · Git
+**Resources:** Netlify · Bootstrap · SASS · Jekyll · paper (yes, physical)
+
+A communication system that extends the brand and creates a consistent visual language across all touchpoints. Designed while co-founding and leading the creative department at Bright Pixel, a digital product studio.
+
+---
+
+### Portugal Participatory Budget (2018)
+
+**Role:** Head of Design at Bright Pixel
+**Responsibilities:** Lead Designer · Project Management
+**Tools:** Adobe Illustrator · VS Code · Git
+**Resources:** Django CMS · Bootstrap · SASS
+
+A project that gave people the power to help their communities and was accessible to all Portuguese citizens. Designed the civic participation platform for the Portuguese government's participatory budget programme.
+
+---
+
+### MEO Cloud (2014–2016)
+
+**Role:** Lead Designer at Sapo
+**Responsibilities:** Lead Designer · UX Designer
+**Tools:** Adobe Illustrator · Adobe Photoshop · Sketch · Git
+**Resources:** Django CMS · Bootstrap
+
+MEO Cloud — a Dropbox-like cloud storage competitor for the Portuguese market, built for all screens. Led the design of the full product across web and mobile, working within Portugal's largest telco group.
+
+---
+
+## Contact
+
+- **Email:** mail@nloureiro.com
+- **LinkedIn:** https://www.linkedin.com/in/nloureiro/
+- **GitHub:** https://github.com/nloureiro
+- **Bluesky:** https://bsky.app/profile/nloureiro.bsky.social
+- **Farcaster/Warpcast:** https://warpcast.com/nloureiro
+- **Twitter/X:** https://twitter.com/nloureiro
+- **CV/Resume:** https://nloureiro.com/assets/cv.pdf

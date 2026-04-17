@@ -1,40 +1,35 @@
-# Nuno Loureiro — nloureiro.com
+# Nuno Loureiro
 
-> Lead Product Designer at Ethereum Foundation. Based in Lisbon, Portugal.
+> Lead Product Designer at Ethereum Foundation, based in Lisbon, Portugal. 25+ years of experience in product design, UX, visual design, and creative direction. Currently focused on improving the user experience of ethereum.org and building design tools for the Ethereum ecosystem.
 
-Nuno Loureiro is a designer with 25+ years of experience across product design, UX, and creative direction. He is currently Lead Product Designer at the Ethereum Foundation, where he focuses on the user experience of ethereum.org and tools for the Ethereum ecosystem.
+Nuno Loureiro is a designer who has led teams and shipped products across web, mobile, and branding at the Ethereum Foundation, Trojan Horse was a Unicorn, Bright Pixel, and Sapo. He studied Industrial Design at IADE — Creative University in Lisbon and taught himself HTML/CSS in 2003. His work spans product design, design systems, front-end implementation, and open source design within the Ethereum ecosystem.
 
-## Background
+For professional inquiries, speaking engagements, or collaboration: mail@nloureiro.com
 
-- Born and raised in Lisbon, Portugal
-- Industrial Design degree (2002)
-- Self-taught HTML/CSS (2003)
-- Career spans ceramic/glass product design → 3D/CAD visualisation → digital product design
+## About
 
-## Career timeline
+- [About Nuno](https://nloureiro.com/about): Full background — from industrial design in Lisbon to leading design at Ethereum Foundation
 
-- 1998–2002: Product designer, ceramic and glass industry
-- 2002–2008: 3D/CAD visualisation for architects and landscape designers
-- 2003–2009: Web design at a small agency
-- 2009–2016: Design lead at Sapo (PT largest web portal), led teams shipping products at international scale
-- 2016–2020: Co-founder and Head of Design at Bright Pixel, working with startups and large companies
-- 2020–2023: Head of Design and Innovation at Trojan Horse was a Unicorn (THU), one of the world's most prestigious digital arts events
-- 2023–present: Lead Product Designer at Ethereum Foundation
+## Work & Portfolio
 
-## Selected work
+- [Portfolio overview](https://nloureiro.com/portfolio): Complete list of selected projects
+- [Ethereum Foundation](https://nloureiro.com/portfolio/ethereum): UX and visual design for ethereum.org and Ethereum ecosystem tools (2023–present)
+- [Trojan Horse was a Unicorn](https://nloureiro.com/portfolio/thu): Digital transformation and platform design for a global creative community (2020–2022)
+- [Público Mobile Applications](https://nloureiro.com/portfolio/publico): Mobile app design for one of Portugal's major newspapers (2019)
+- [Bright Pixel System](https://nloureiro.com/portfolio/brpx): Brand communication system and creative direction (2016–2019)
+- [Portugal Participatory Budget](https://nloureiro.com/portfolio/opp): Civic participation platform accessible to all Portuguese citizens (2018)
+- [MEO Cloud](https://nloureiro.com/portfolio/meocloud): Cloud storage product design for all screens (2014–2016)
 
-- Ethereum Foundation — UX and design systems for ethereum.org
-- Trojan Horse was a Unicorn — digital transformation of a global creative community event
-- Público — mobile applications for one of Portugal's major newspapers
-- Bright Pixel — brand and communication design system
-- Portugal Participatory Budget — civic participation platform for all Portuguese citizens
-- MEO Cloud — Dropbox-like cloud storage product for the Portuguese market
+## Contact & Profiles
 
-## Contact
+- [Contact](https://nloureiro.com/contact): Email and social links
+- [LinkedIn](https://www.linkedin.com/in/nloureiro/): Professional profile
+- [GitHub](https://github.com/nloureiro): Code and open source contributions
+- [Bluesky](https://bsky.app/profile/nloureiro.bsky.social): Social and writing
+- [Warpcast/Farcaster](https://warpcast.com/nloureiro): Ethereum and web3 social
 
-- Email: mail@nloureiro.com
-- Twitter/X: https://twitter.com/nloureiro
-- Bluesky: https://bsky.app/profile/nloureiro.bsky.social
-- LinkedIn: https://www.linkedin.com/in/nloureiro/
-- GitHub: https://github.com/nloureiro
-- Farcaster: https://warpcast.com/nloureiro
+## Optional
+
+- [CV / Resume](https://nloureiro.com/assets/cv.pdf): Downloadable PDF resume
+- [Twitter/X](https://twitter.com/nloureiro): Legacy social profile
+- [Full context (llms-full.txt)](https://nloureiro.com/llms-full.txt): Complete inline content for LLMs that cannot follow links

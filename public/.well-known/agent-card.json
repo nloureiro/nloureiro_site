@@ -1,0 +1,43 @@
+{
+  "name": "Nuno Loureiro",
+  "description": "Lead Product Designer at Ethereum Foundation. Based in Lisbon, Portugal. Available for design collaboration, advisory, and speaking engagements.",
+  "url": "https://nloureiro.com",
+  "provider": {
+    "organization": "Nuno Loureiro",
+    "url": "https://nloureiro.com"
+  },
+  "version": "1.0",
+  "documentationUrl": "https://nloureiro.com/llms.txt",
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false
+  },
+  "defaultInputModes": ["text"],
+  "defaultOutputModes": ["text"],
+  "skills": [
+    {
+      "id": "portfolio",
+      "name": "View Portfolio",
+      "description": "Explore selected design case studies across product design, UX, and creative direction",
+      "inputModes": ["text"],
+      "outputModes": ["text"],
+      "examples": ["Show me Nuno's work", "What projects has Nuno worked on?"]
+    },
+    {
+      "id": "contact",
+      "name": "Contact Nuno",
+      "description": "Reach Nuno for design collaboration, advisory, or speaking engagements",
+      "inputModes": ["text"],
+      "outputModes": ["text"],
+      "examples": ["How can I contact Nuno?", "Is Nuno available for freelance work?"]
+    },
+    {
+      "id": "about",
+      "name": "Learn About Nuno",
+      "description": "Background, career history, skills, and expertise",
+      "inputModes": ["text"],
+      "outputModes": ["text"],
+      "examples": ["Who is Nuno Loureiro?", "What is Nuno's background?"]
+    }
+  ]
+}

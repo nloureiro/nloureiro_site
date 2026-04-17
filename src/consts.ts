@@ -1,6 +1,6 @@
 export const SITE_TITLE = 'Nuno Loureiro';
 export const SITE_DESCRIPTION =
-  'Nuno Loureiro personal website where you can find some of the awesome projects';
+  'Nuno Loureiro is a Lead Product Designer at Ethereum Foundation, based in Lisbon. 25+ years of experience in product design, UX, and creative direction.';
 export const SITE_URL = 'https://nloureiro.com';
 export const SITE_AUTHOR = 'Nuno Loureiro';
 export const SITE_EMAIL = 'mail@nloureiro.com';

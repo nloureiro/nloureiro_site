@@ -1,5 +1,5 @@
 ---
-import { SITE_TITLE, SITE_DESCRIPTION, SITE_URL, SITE_TWITTER, OG_IMAGE } from '../consts';
+import { SITE_TITLE, SITE_DESCRIPTION, SITE_URL, SITE_TWITTER, SITE_AUTHOR, OG_IMAGE } from '../consts';
 
 interface Props {
   title?: string;
@@ -17,11 +17,30 @@ const {
   publishedDate,
 } = Astro.props;
 
-const fullTitle = title && section !== 'home' ? title : SITE_TITLE;
+const fullTitle = title && section !== 'home' ? `${title} — Nuno Loureiro` : SITE_TITLE;
 const metaDescription = (description ?? SITE_DESCRIPTION).slice(0, 160);
 const canonical = new URL(Astro.url.pathname, SITE_URL).toString();
 const ogImageUrl = new URL(ogImage, SITE_URL).toString();
 const isPost = section === 'post';
+
+const personSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Person',
+  name: 'Nuno Loureiro',
+  url: SITE_URL,
+  jobTitle: 'Lead Product Designer',
+  worksFor: { '@type': 'Organization', name: 'Ethereum Foundation', url: 'https://ethereum.org' },
+  sameAs: [
+    'https://twitter.com/nloureiro',
+    'https://bsky.app/profile/nloureiro.bsky.social',
+    'https://www.linkedin.com/in/nloureiro/',
+    'https://github.com/nloureiro',
+    'https://warpcast.com/nloureiro',
+  ],
+  knowsAbout: ['Product Design', 'UX Design', 'Creative Direction', 'Ethereum', 'Web3'],
+  alumniOf: { '@type': 'CollegeOrUniversity', name: 'IADE — Creative University' },
+  homeLocation: { '@type': 'Place', name: 'Lisbon, Portugal' },
+};
 ---
 
 <head>
@@ -29,6 +48,7 @@ const isPost = section === 'post';
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>{fullTitle}</title>
   <meta name="description" content={metaDescription} />
+  <meta name="author" content={SITE_AUTHOR} />
   <link rel="canonical" href={canonical} />
   <link rel="icon" href="/favicon.ico" />
   <link rel="icon" type="image/png" href="/favicon.png" />
@@ -51,4 +71,6 @@ const isPost = section === 'post';
   <meta name="twitter:image" content={ogImageUrl} />
   <meta name="twitter:site" content={SITE_TWITTER} />
   <meta name="twitter:creator" content={SITE_TWITTER} />
+
+  <script type="application/ld+json" set:html={JSON.stringify(personSchema)} />
 </head>

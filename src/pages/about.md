@@ -29,7 +29,7 @@ In 2002, I started helping architects and landscape designers with 3D visualizat
 
 I still use these learnings today, when I'm working on complex digital projects.
 
-In 2003 my transition to digital was a natural one. I taught myself HTML and CSS and started working in a small agency building websites for clients. The Internet became my passion, and I've been working on digital products ever since.
+In 2003, my transition to digital was a natural one. I taught myself HTML and CSS and started working in a small agency building websites for clients. The Internet became my passion, and I've been working on digital products ever since.
 
 <img class="img3" src="/assets/img/work/various/jular2.png" alt="Jular website" loading="lazy" /> *My first big website back in 2007*
 
@@ -39,9 +39,9 @@ At [Sapo](https://www.sapo.pt/), 2009 to 2016, I led design teams and was very f
 
 <img class="img4" src="/assets/img/work/various/sapo.jpg" alt="Sapo office" loading="lazy" /> *sapo office interior design made in 2014*
 
-<img class="img44" src="/assets/img/work/various/sapo2.jpg" alt="Sapo facade" loading="lazy" /> *sapo facade with 15m height logo made in 2014*
+<img class="img44" src="/assets/img/work/various/sapo2.jpg" alt="Sapo facade" loading="lazy" /> *Sapo facade with a 15m-tall logo made in 2014*
 
-The latest big challenge in my career was to co-found [Bright Pixel](https://brpx.com/) and lead the creative department. I worked directly with startups, and big companies rethinking their digital product experience. It was an immensely rewarding experience that broadened my knowledge of business, marketing, and strategy.
+The latest big challenge in my career was to co-found [Bright Pixel](https://brpx.com/) and lead the creative department. I worked directly with startups and big companies rethinking their digital product experience. It was an immensely rewarding experience that broadened my knowledge of business, marketing, and strategy.
 
 <img class="img5" src="/assets/img/work/various/me_working.jpg" alt="Me working" loading="lazy" /> *Me at Bright Pixel HQ in 2016, the first days*
 
@@ -49,4 +49,4 @@ In 2023, I joined the [Ethereum Foundation](https://ethereum.org) as a Lead Prod
 
 Check the [portfolio section](/portfolio) where I highlight some of my work. If you need it, here is my [CV](/assets/cv.pdf), and if you have any questions, feel free to send me an [email](mailto:mail@nloureiro.com) or [follow](/contact) me on social media.
 
-Thank you for your time and enjoy! :)
+Thank you for your time and enjoy your visit! :)

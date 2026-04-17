@@ -1,0 +1,40 @@
+# Nuno Loureiro — nloureiro.com
+
+> Lead Product Designer at Ethereum Foundation. Based in Lisbon, Portugal.
+
+Nuno Loureiro is a designer with 25+ years of experience across product design, UX, and creative direction. He is currently Lead Product Designer at the Ethereum Foundation, where he focuses on the user experience of ethereum.org and tools for the Ethereum ecosystem.
+
+## Background
+
+- Born and raised in Lisbon, Portugal
+- Industrial Design degree (2002)
+- Self-taught HTML/CSS (2003)
+- Career spans ceramic/glass product design → 3D/CAD visualisation → digital product design
+
+## Career timeline
+
+- 1998–2002: Product designer, ceramic and glass industry
+- 2002–2008: 3D/CAD visualisation for architects and landscape designers
+- 2003–2009: Web design at a small agency
+- 2009–2016: Design lead at Sapo (PT largest web portal), led teams shipping products at international scale
+- 2016–2020: Co-founder and Head of Design at Bright Pixel, working with startups and large companies
+- 2020–2023: Head of Design and Innovation at Trojan Horse was a Unicorn (THU), one of the world's most prestigious digital arts events
+- 2023–present: Lead Product Designer at Ethereum Foundation
+
+## Selected work
+
+- Ethereum Foundation — UX and design systems for ethereum.org
+- Trojan Horse was a Unicorn — digital transformation of a global creative community event
+- Público — mobile applications for one of Portugal's major newspapers
+- Bright Pixel — brand and communication design system
+- Portugal Participatory Budget — civic participation platform for all Portuguese citizens
+- MEO Cloud — Dropbox-like cloud storage product for the Portuguese market
+
+## Contact
+
+- Email: mail@nloureiro.com
+- Twitter/X: https://twitter.com/nloureiro
+- Bluesky: https://bsky.app/profile/nloureiro.bsky.social
+- LinkedIn: https://www.linkedin.com/in/nloureiro/
+- GitHub: https://github.com/nloureiro
+- Farcaster: https://warpcast.com/nloureiro
